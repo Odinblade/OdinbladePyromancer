@@ -1,0 +1,6 @@
+peace
+maxout
+magemana 100
+addSkill Storm_OdinPyro_Ragnarok 
+nocooldowns
+[HistoryLimit]30

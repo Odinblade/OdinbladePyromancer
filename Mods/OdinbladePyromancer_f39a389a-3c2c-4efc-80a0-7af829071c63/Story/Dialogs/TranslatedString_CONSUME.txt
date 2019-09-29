@@ -1,0 +1,22 @@
+Key	Content	Speaker	ExtraData
+OdinPyro_SNARED_DisplayName	Snared		
+FIREBLOOD_DisplayName	Fireblood		
+OdinPyro_BLAZING_DisplayName	Blazing		
+OdinPyro_FLAMEBELLY_DisplayName	Flamebelly		
+OdinPyro_SMOLDER_DisplayName	Smoldered		
+OdinPyro_PURIFYINGFIRE_DisplayName	Purifying Fire		
+OdinPyro_PURIFYINGFIRE_ENEMY_DisplayName	Purifying Fire		
+OdinPyro_INCINERATEPROC_DisplayName	Incinerate		
+OdinPyro_SMOLDER_AURA_DisplayName	Smoldered Aura		
+OdinPyro_PHOENIXIANREVIVAL_DisplayName	Phoenixian Revival		
+OdinPyro_PHOENIXIANFURY_DisplayName	Phoenixian Fury		
+Stats_OdinPyroSnared	Snared		
+Stats_OdinPyroSmolder	Smoldered		
+Stats_OdinPyroBlazing	Blazing		
+Stats_OdinPyroPurifyingFire	Purifying Fire		
+Stats_OdinPyroPurifyingFire_Enemy	Purifying Fire		
+Stats_OdinPyroIncinerate	Incinerate		
+Stats_OdinPyroFlamebelly	Flamebelly		
+Stats_OdinPyroSmolder_Aura	Smolder Aura		
+Stats_OdinPyroPhoenixianRevival	Phoenixian Revival		
+Stats_OdinPyroPhoenixianFury	Phoenixian Fury		

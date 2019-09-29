@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_FireSlug" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rush_OdinPyro_SummonSkill_SlugBatteringRam" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_FireSlug_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_FireSlug" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Zone_OdinPyro_SummonSkill_LaserRay" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_FireSlug_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_OdinPyro_SummonSkill_Ignition" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_FireSlug" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_FlameElemental" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_OdinPyro_SummonSkill_FlamingDaggers" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_FlameElemental_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_OdinPyro_SummonSkill_SelfImmolation" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_FlameElemental" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_OdinPyro_SummonSkill_Supernova" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_FlameElemental" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Arsonist" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_FlamingDaggers" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Arsonist_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rain_OdinPyro_EmberShower" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Class_Arsonist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_Ignition" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Class_Arsonist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Flameblade" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_FireBrand" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Flameblade_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinPyro_BurningTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Class_Flameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rush_BatteringRam" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Class_Flameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Scorcher" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_Ignition" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Scorcher_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_OdinPyro_BurningTouch" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Class_Scorcher" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_BurnMyEyes" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Class_Scorcher" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Phoenix" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Haste" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Phoenix_substat" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rain_OdinPyro_EmberShower" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Class_Phoenix" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_FlamingDaggers" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Class_Phoenix" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

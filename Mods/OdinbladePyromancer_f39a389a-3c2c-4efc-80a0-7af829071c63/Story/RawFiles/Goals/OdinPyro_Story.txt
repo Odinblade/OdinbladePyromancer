@@ -1,0 +1,42 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//Credit to Zerd for the following improved code. You rock!
+//REGION OBPYRO_Firebrand_OnHit
+IF
+    CharacterStatusAttempt(_Defender, "OdinPYRO_FIREBRAND_PROC", (CHARACTERGUID)_Attacker)
+AND
+    HasActiveStatus(_Attacker, "FIRE_BRAND", 1)
+AND
+    HasActiveStatus(_Defender, "WARM", 0)
+AND
+    NOT DB_OdinPYRO_Firebrand(_Attacker, _Defender)
+THEN
+    DB_OdinPYRO_Firebrand(_Attacker, _Defender);
+    ApplyStatus(_Defender, "WARM", 6.0, 0, _Attacker);
+    ProcObjectTimer(_Defender, "Clear_DB_OdinPYRO_Firebrand", 100);
+
+PROC
+    ProcObjectTimerFinished((CHARACTERGUID)_Defender, "Clear_DB_OdinPYRO_Firebrand")
+AND
+    DB_OdinPYRO_Firebrand(_Attacker, _Defender)
+THEN
+    NOT DB_OdinPYRO_Firebrand(_Attacker, _Defender);
+//END_REGION
+
+//REGION OBPYRO_Firebrand_DeltaModifier
+IF
+    CharacterStatusApplied(_Char, "FIRE_BRAND", _)
+AND
+    CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
+AND
+    NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinPYRO_Firebrand")
+THEN
+    ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinPYRO_Firebrand");
+ //END_REGION
+
+EXITSECTION
+
+ENDEXITSECTION

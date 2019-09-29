@@ -1,0 +1,7 @@
+new deltamod "Boost_Weapon_OdinPYRO_Firebrand"
+param "BoostType" "BaseUncommon"
+param "MinLevel" "1"
+param "Frequency" "1"
+param "ModifierType" "Weapon"
+new boost "_Boost_OdinPYRO_Firebrand",1
+

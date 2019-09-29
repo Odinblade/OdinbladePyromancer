@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="5d537a8b-7d4e-412b-a070-b23dc016aa4f">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="9a4151d4-f891-417a-9f72-a04e30e60674" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_ImprovisedFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0bbb7b77-4a11-4f02-b599-6ab10e6623f3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesCommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_CommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="3e5342db-7854-402b-93e5-70a9d81b92cf" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansCommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_CommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_2" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="206d6d47-2124-408a-adb7-194fbf8ae689" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_CommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_3" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="25d080f6-c7c2-4920-b51d-e1c1f1b833e4" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesCommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_CommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_4" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0bbb7b77-4a11-4f02-b599-6ab10e6623f3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_5" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="3e5342db-7854-402b-93e5-70a9d81b92cf" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_6" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="206d6d47-2124-408a-adb7-194fbf8ae689" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_7" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="25d080f6-c7c2-4920-b51d-e1c1f1b833e4" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_8" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="25d080f6-c7c2-4920-b51d-e1c1f1b833e4" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_9" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="25d080f6-c7c2-4920-b51d-e1c1f1b833e4" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_10" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0bbb7b77-4a11-4f02-b599-6ab10e6623f3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_11" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0bbb7b77-4a11-4f02-b599-6ab10e6623f3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_12" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="3e5342db-7854-402b-93e5-70a9d81b92cf" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_13" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="206d6d47-2124-408a-adb7-194fbf8ae689" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_14" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="25d080f6-c7c2-4920-b51d-e1c1f1b833e4" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_15" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="25d080f6-c7c2-4920-b51d-e1c1f1b833e4" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_16" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="0bbb7b77-4a11-4f02-b599-6ab10e6623f3" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_17" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="3e5342db-7854-402b-93e5-70a9d81b92cf" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_18" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="3e5342db-7854-402b-93e5-70a9d81b92cf" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_19" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="206d6d47-2124-408a-adb7-194fbf8ae689" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_20" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="25d080f6-c7c2-4920-b51d-e1c1f1b833e4" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinSpectre_Scythes_2H_substat_21" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_1H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="25d080f6-c7c2-4920-b51d-e1c1f1b833e4" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="5b8e9d97-0f43-47b3-a6e9-23ac8bdf8796" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_ImprovisedFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_0" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a4b6ce5b-4dc7-48d1-8dd3-d1b24a9632b7" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesCommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_CommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_1" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1d1ebe74-4c2c-4c43-abcd-0ff4ee0dc1d2" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansCommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_CommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_2" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="11a90087-6bbb-4846-8cfd-7c1c561acb39" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_CommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_3" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Common" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1503c609-c3b4-49de-8f64-4423e6ee635d" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesCommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_CommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_4" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a4b6ce5b-4dc7-48d1-8dd3-d1b24a9632b7" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_5" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1d1ebe74-4c2c-4c43-abcd-0ff4ee0dc1d2" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_6" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="11a90087-6bbb-4846-8cfd-7c1c561acb39" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_7" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1503c609-c3b4-49de-8f64-4423e6ee635d" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_8" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1503c609-c3b4-49de-8f64-4423e6ee635d" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_9" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Uncommon" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1503c609-c3b4-49de-8f64-4423e6ee635d" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansUncommon" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_10" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a4b6ce5b-4dc7-48d1-8dd3-d1b24a9632b7" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_11" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a4b6ce5b-4dc7-48d1-8dd3-d1b24a9632b7" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_12" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1d1ebe74-4c2c-4c43-abcd-0ff4ee0dc1d2" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_13" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="11a90087-6bbb-4846-8cfd-7c1c561acb39" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_14" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1503c609-c3b4-49de-8f64-4423e6ee635d" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_15" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Rare" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1503c609-c3b4-49de-8f64-4423e6ee635d" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsRare" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_16" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="a4b6ce5b-4dc7-48d1-8dd3-d1b24a9632b7" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_17" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1d1ebe74-4c2c-4c43-abcd-0ff4ee0dc1d2" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_18" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1d1ebe74-4c2c-4c43-abcd-0ff4ee0dc1d2" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="ElvesEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_19" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="11a90087-6bbb-4846-8cfd-7c1c561acb39" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="HumansEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_20" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1503c609-c3b4-49de-8f64-4423e6ee635d" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="LizardsEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="New_Stat_0_substat_21" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Flameblades_2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="Epic" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="1503c609-c3b4-49de-8f64-4423e6ee635d" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DwarvesEpic" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_PhoenixWings" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="f6a76fe3-4c6b-4f8d-b04d-a6b5ca8efb59" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_PhoenixWings" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

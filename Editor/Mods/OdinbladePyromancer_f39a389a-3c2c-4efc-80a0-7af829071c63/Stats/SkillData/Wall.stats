@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c0c6d5b9-3a68-4008-86c4-8b2b6f8983c1">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_ObsidianWall" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="MaxDistance" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="GrowSpeed" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="GrowTimeout" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="SurfaceType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Surface Type" />
+        <field name="TotalSurfaceCells" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="SurfaceGrowStep" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="SurfaceGrowInterval" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="SurfaceStatusChance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_MagmaWall" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Magma Wall" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Draw an impassable wall of &lt;font color=&quot;#c92d01&quot;&gt;magma&lt;/font&gt;, spanning up to [1] and lasting 2 turns. This wall creates a &lt;font color=&quot;#fe6e27&quot;&gt;fire surface&lt;/font&gt;." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Voodoo_Root_01,KeepRot;RS3_FX_Skills_Fire_Prepare_Voodoo_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Target_Voodoo_Root_02,KeepRot;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_R_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_L_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_01:Dummy_L_HandFX:cast" />
+        <field name="SourceTargetEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_MagmaWall_Preview_01" />
+        <field name="TargetTargetEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_MagmaWall_Preview_01" />
+        <field name="Template1" type="StringStatObjectFieldDefinition" value="1695076f-f5bf-4f3b-ae58-2702533f2a6a" />
+        <field name="Template2" type="StringStatObjectFieldDefinition" value="00f493f1-392c-4b1b-9041-7f58becdb610" />
+        <field name="Template3" type="StringStatObjectFieldDefinition" value="c47de939-a773-4f11-941b-adef3eebbbfe" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 2; EarthSpecialist 1" />
+        <field name="PreviewEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_MagmaWall_Preview_01" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="MaxDistance" />
+        <field name="SpawnEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_02" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

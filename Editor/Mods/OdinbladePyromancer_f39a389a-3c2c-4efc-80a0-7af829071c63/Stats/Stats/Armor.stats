@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_PyroKnight_UpperBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyUpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Knight_UpperBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinPyro_ArmourColour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_PyroKnight_LowerBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyLowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Knight_LowerBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinPyro_ArmourColour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_PyroKnight_Gloves" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyGloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Knight_Gloves" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinPyro_ArmourColour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_PyroKnight_Boots" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyBoots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Knight_Boots" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinPyro_ArmourColour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_PyroKnight_Helmet" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Knight_Helmet" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinPyro_ArmourColour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_PyroWizard_UpperBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageUpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Wizard_UpperBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinPyro_ArmourColour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_PyroWizard_LowerBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageLowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Wizard_LowerBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinPyro_ArmourColour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_PyroWizard_Gloves" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageGloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Wizard_Gloves" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinPyro_ArmourColour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_PyroWizard_Boots" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageBoots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Wizard_Boots" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinPyro_ArmourColour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_PyroWizard_Helmet" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_MageHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ARM_Wizard_Helmet" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="OdinPyro_ArmourColour" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_OdinPyro_PhoenixWings" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="OdinPyro_PhoenixWings" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Itemslot" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

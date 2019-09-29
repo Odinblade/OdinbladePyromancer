@@ -1,0 +1,194 @@
+new itemgroup "OdinPyro_Flameblades_1H"
+
+add levelgroup 1,3,"Common"
+add rootgroup "9a4151d4-f891-417a-9f72-a04e30e60674",""
+add namegroup "OdinPyro_ImprovisedFlameblade","",""
+
+add levelgroup 4,7,"Common"
+add rootgroup "0bbb7b77-4a11-4f02-b599-6ab10e6623f3","DwarvesCommon"
+add namegroup "OdinPyro_CommonFlameblade","",""
+
+add levelgroup 8,11,"Common"
+add rootgroup "3e5342db-7854-402b-93e5-70a9d81b92cf","HumansCommon"
+add namegroup "OdinPyro_CommonFlameblade","",""
+
+add levelgroup 12,15,"Common"
+add rootgroup "206d6d47-2124-408a-adb7-194fbf8ae689","ElvesUncommon"
+add namegroup "OdinPyro_CommonFlameblade","",""
+
+add levelgroup 16,0,"Common"
+add rootgroup "25d080f6-c7c2-4920-b51d-e1c1f1b833e4","DwarvesCommon"
+add namegroup "OdinPyro_CommonFlameblade","",""
+
+add levelgroup 1,3,"Uncommon"
+add rootgroup "0bbb7b77-4a11-4f02-b599-6ab10e6623f3","ElvesUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 4,7,"Uncommon"
+add rootgroup "3e5342db-7854-402b-93e5-70a9d81b92cf","DwarvesUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 8,11,"Uncommon"
+add rootgroup "206d6d47-2124-408a-adb7-194fbf8ae689","LizardsUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 12,15,"Uncommon"
+add rootgroup "25d080f6-c7c2-4920-b51d-e1c1f1b833e4","DwarvesUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 16,18,"Uncommon"
+add rootgroup "25d080f6-c7c2-4920-b51d-e1c1f1b833e4","ElvesUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 19,0,"Uncommon"
+add rootgroup "25d080f6-c7c2-4920-b51d-e1c1f1b833e4","HumansUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 1,3,"Rare"
+add rootgroup "0bbb7b77-4a11-4f02-b599-6ab10e6623f3","DwarvesRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 4,7,"Rare"
+add rootgroup "0bbb7b77-4a11-4f02-b599-6ab10e6623f3","LizardsRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 8,11,"Rare"
+add rootgroup "3e5342db-7854-402b-93e5-70a9d81b92cf","DwarvesRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 12,15,"Rare"
+add rootgroup "206d6d47-2124-408a-adb7-194fbf8ae689","ElvesRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 16,18,"Rare"
+add rootgroup "25d080f6-c7c2-4920-b51d-e1c1f1b833e4","HumansRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 19,0,"Rare"
+add rootgroup "25d080f6-c7c2-4920-b51d-e1c1f1b833e4","LizardsRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 1,3,"Epic"
+add rootgroup "0bbb7b77-4a11-4f02-b599-6ab10e6623f3","LizardsEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+add levelgroup 4,7,"Epic"
+add rootgroup "3e5342db-7854-402b-93e5-70a9d81b92cf","DwarvesEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+add levelgroup 8,11,"Epic"
+add rootgroup "3e5342db-7854-402b-93e5-70a9d81b92cf","ElvesEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+add levelgroup 12,15,"Epic"
+add rootgroup "206d6d47-2124-408a-adb7-194fbf8ae689","HumansEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+add levelgroup 16,18,"Epic"
+add rootgroup "25d080f6-c7c2-4920-b51d-e1c1f1b833e4","LizardsEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+add levelgroup 19,0,"Epic"
+add rootgroup "25d080f6-c7c2-4920-b51d-e1c1f1b833e4","DwarvesEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+new itemgroup "OdinPyro_Flameblades_2H"
+
+add levelgroup 1,3,"Common"
+add rootgroup "5b8e9d97-0f43-47b3-a6e9-23ac8bdf8796",""
+add namegroup "OdinPyro_ImprovisedFlameblade","",""
+
+add levelgroup 4,7,"Common"
+add rootgroup "a4b6ce5b-4dc7-48d1-8dd3-d1b24a9632b7","DwarvesCommon"
+add namegroup "OdinPyro_CommonFlameblade","",""
+
+add levelgroup 8,11,"Common"
+add rootgroup "1d1ebe74-4c2c-4c43-abcd-0ff4ee0dc1d2","HumansCommon"
+add namegroup "OdinPyro_CommonFlameblade","",""
+
+add levelgroup 12,15,"Common"
+add rootgroup "11a90087-6bbb-4846-8cfd-7c1c561acb39","ElvesUncommon"
+add namegroup "OdinPyro_CommonFlameblade","",""
+
+add levelgroup 16,0,"Common"
+add rootgroup "1503c609-c3b4-49de-8f64-4423e6ee635d","DwarvesCommon"
+add namegroup "OdinPyro_CommonFlameblade","",""
+
+add levelgroup 1,3,"Uncommon"
+add rootgroup "a4b6ce5b-4dc7-48d1-8dd3-d1b24a9632b7","ElvesUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 4,7,"Uncommon"
+add rootgroup "1d1ebe74-4c2c-4c43-abcd-0ff4ee0dc1d2","DwarvesUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 8,11,"Uncommon"
+add rootgroup "11a90087-6bbb-4846-8cfd-7c1c561acb39","LizardsUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 12,15,"Uncommon"
+add rootgroup "1503c609-c3b4-49de-8f64-4423e6ee635d","DwarvesUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 16,18,"Uncommon"
+add rootgroup "1503c609-c3b4-49de-8f64-4423e6ee635d","ElvesUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 19,0,"Uncommon"
+add rootgroup "1503c609-c3b4-49de-8f64-4423e6ee635d","HumansUncommon"
+add namegroup "OdinPyro_UncommonFlameblade","",""
+
+add levelgroup 1,3,"Rare"
+add rootgroup "a4b6ce5b-4dc7-48d1-8dd3-d1b24a9632b7","DwarvesRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 4,7,"Rare"
+add rootgroup "a4b6ce5b-4dc7-48d1-8dd3-d1b24a9632b7","LizardsRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 8,11,"Rare"
+add rootgroup "1d1ebe74-4c2c-4c43-abcd-0ff4ee0dc1d2","DwarvesRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 12,15,"Rare"
+add rootgroup "11a90087-6bbb-4846-8cfd-7c1c561acb39","ElvesRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 16,18,"Rare"
+add rootgroup "1503c609-c3b4-49de-8f64-4423e6ee635d","HumansRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 19,0,"Rare"
+add rootgroup "1503c609-c3b4-49de-8f64-4423e6ee635d","LizardsRare"
+add namegroup "OdinPyro_RareFlameblade","",""
+
+add levelgroup 1,3,"Epic"
+add rootgroup "a4b6ce5b-4dc7-48d1-8dd3-d1b24a9632b7","LizardsEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+add levelgroup 4,7,"Epic"
+add rootgroup "1d1ebe74-4c2c-4c43-abcd-0ff4ee0dc1d2","DwarvesEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+add levelgroup 8,11,"Epic"
+add rootgroup "1d1ebe74-4c2c-4c43-abcd-0ff4ee0dc1d2","ElvesEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+add levelgroup 12,15,"Epic"
+add rootgroup "11a90087-6bbb-4846-8cfd-7c1c561acb39","HumansEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+add levelgroup 16,18,"Epic"
+add rootgroup "1503c609-c3b4-49de-8f64-4423e6ee635d","LizardsEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+add levelgroup 19,0,"Epic"
+add rootgroup "1503c609-c3b4-49de-8f64-4423e6ee635d","DwarvesEpic"
+add namegroup "OdinPyro_EpicFlameblade","",""
+
+new itemgroup "OdinPyro_PhoenixWings"
+
+add levelgroup 0,0,"All"
+add rootgroup "f6a76fe3-4c6b-4f8d-b04d-a6b5ca8efb59",""
+add namegroup "OdinPyro_PhoenixWings","",""
+

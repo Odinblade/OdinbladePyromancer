@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="48e63fff-81e0-42bb-ac51-39f5904b97be">
+  <stat_objects>
+    <stat_object index="0" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBurning1" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="statIcons_Fire" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-5" />
+      </fields>
+    </stat_object>
+    <stat_object index="1" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBurning2" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="statIcons_Fire" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-10" />
+      </fields>
+    </stat_object>
+    <stat_object index="2" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBurning3" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="statIcons_Fire" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-15" />
+      </fields>
+    </stat_object>
+    <stat_object index="3" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBurning4" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="statIcons_Fire" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-20" />
+      </fields>
+    </stat_object>
+    <stat_object index="4" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBurning5" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="statIcons_Fire" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-25" />
+      </fields>
+    </stat_object>
+    <stat_object index="5" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroPhoenixFire_Damage" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object index="6" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroPhoenixFire_Healing" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="OdinPyro_PhoenixFireStatus_Healing" />
+      </fields>
+    </stat_object>
+    <stat_object index="7" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroSnared" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="MovementSpeedBoost" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-100" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-50" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="Flags" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="Grounded" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="OdinPyro_Snared" />
+      </fields>
+    </stat_object>
+    <stat_object index="8" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroDisrupted" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="OdinPyro_Disrupted" />
+      </fields>
+    </stat_object>
+    <stat_object index="9" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBurning1_Purge" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="statIcons_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object index="10" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBurning2_Purge" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="statIcons_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object index="11" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBurning3_Purge" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="statIcons_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object index="12" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBurning4_Purge" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="statIcons_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object index="13" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBurning5_Purge" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="statIcons_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object index="14" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroBlazing" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="OdinPyro_SelfImmolation" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="35" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-15" />
+      </fields>
+    </stat_object>
+    <stat_object index="15" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroSmolder" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="OdinPyro_Smolder" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-15" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-25" />
+      </fields>
+    </stat_object>
+    <stat_object index="16" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroPurifyingFire" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+      </fields>
+    </stat_object>
+    <stat_object index="17" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroPurifyingFire_Enemy" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+      </fields>
+    </stat_object>
+    <stat_object index="18" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroIncinerate" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+      </fields>
+    </stat_object>
+    <stat_object index="19" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroFlamebelly" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="OdinPyro_SelfImmolation" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="15" />
+      </fields>
+    </stat_object>
+    <stat_object index="20" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroSmolder_Aura" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="Duration" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="2" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="OdinPyro_Smolder" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-15" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" clear_inherited_value="false" value="-25" />
+      </fields>
+    </stat_object>
+    <stat_object index="21" is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" clear_inherited_value="false" value="Stats_OdinPyroPhoenixianRevival" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" clear_inherited_value="false" value="0" enumeration_type_name="ActPart" />
+        <field name="StatusIcon" type="StringStatObjectFieldDefinition" clear_inherited_value="false" value="OdinPyro_GloriousRevival" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

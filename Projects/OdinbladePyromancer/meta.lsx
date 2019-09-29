@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" time="1534608278" />
+    <version major="3" minor="6" revision="0" build="3" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="aab53301-4f38-1d49-91f7-28dfa468084b" type="23" />
+            <attribute id="Name" value="OdinbladePyromancer" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="b13c07c1-8b3f-4197-ac88-9dd9a7eee4d7" type="23" />
+        </node>
+    </region>
+</save>

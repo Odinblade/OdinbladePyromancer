@@ -1,0 +1,19 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+ObjectFlagSet("OdinPYRO_Vendor",(CHARACTERGUID)_Vendor, _Int)
+THEN
+DB_OdinPYRO_Vendor(_Vendor);
+
+IF
+ObjectFlagSet("OdinPYRO_Reset_Arsonist", (CHARACTERGUID)_Char, _)
+AND
+DB_OdinPYRO_Vendor(_Vendor)
+THEN
+ProcOdinCoreRespec(_Char,_Vendor,"Arsonist","OdinPYRO_Reset_Arsonist","OdinPYRO_Vendor");
+EXITSECTION
+
+ENDEXITSECTION

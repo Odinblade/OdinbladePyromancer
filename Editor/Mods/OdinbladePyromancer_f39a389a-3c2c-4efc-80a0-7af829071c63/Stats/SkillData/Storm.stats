@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="f1d6f2b9-0848-426d-8169-c3946d47c9a4">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Ragnarok" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf;Enemy" />
+        <field name="OverrideSkillLevel" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="HitRadius" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Lifetime" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinHitsPerTurn" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="MaxHitsPerTurn" type="IntegerStatObjectFieldDefinition" value="7" />
+        <field name="HitDelay" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 4;" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_Ragnarok" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Ragnarok" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Flames decimate the area, dealing [1] to enemies in a 3m radius, and leaving &lt;font color=&quot;#c92d01&quot;&gt;Necrofire surfaces&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Enemies hit by the flames are afflicted with &lt;font color=&quot;#c92d01&quot;&gt;Necrofire&lt;/font&gt; and a stack of &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt;. &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#fe6e27&quot;&gt;Ragnarok&lt;/font&gt; lasts 1 turn before subsiding." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Weapon_Prepare_Hand_01:Dummy_R_HandFX;OdinPyro_Prepare_Root_01,KeepRot" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_fire_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Cast_AoE_Root_01;RS3_FX_Skills_Fire_Throw_Cast_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_UI_TargetPreviewer_Fire_01" />
+        <field name="StormEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Impact_Ragnarok_02" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="ProjectileSkills" type="StringStatObjectFieldDefinition" value="ProjectileStrike_OdinPyro_Stormbolt_Ragnarok" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Skill:ProjectileStrike_OdinPyro_Stormbolt_Ragnarok:Damage" />
+        <field name="ImpactEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_01" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

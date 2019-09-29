@@ -1,0 +1,18 @@
+new namegroup "OdinPyro_ImprovisedFlameblade"
+add name "Improvised Flameblade","A Flameblade's signature weapon."
+
+new namegroup "OdinPyro_UncommonFlameblade"
+add name "Noble Flameblade","A Flameblade's signature weapon."
+
+new namegroup "OdinPyro_CommonFlameblade"
+add name "Knight's Flameblade","A Flameblade's signature weapon."
+
+new namegroup "OdinPyro_RareFlameblade"
+add name "Mighty Flameblade","A Flameblade's signature weapon."
+
+new namegroup "OdinPyro_EpicFlameblade"
+add name "Roaring Flameblade","A Flameblade's signature weapon."
+
+new namegroup "OdinPyro_PhoenixWings"
+add name "Phoenix Wings","Wings of the Phoenix."
+

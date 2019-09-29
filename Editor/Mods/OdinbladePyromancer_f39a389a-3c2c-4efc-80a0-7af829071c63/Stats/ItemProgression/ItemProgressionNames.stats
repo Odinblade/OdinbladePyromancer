@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a46ee13b-92c9-474f-9b83-2561b63cf414">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_ImprovisedFlameblade" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Improvised Flameblade" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A Flameblade's signature weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_UncommonFlameblade" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Noble Flameblade" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A Flameblade's signature weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_CommonFlameblade" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Knight's Flameblade" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A Flameblade's signature weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_RareFlameblade" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Mighty Flameblade" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A Flameblade's signature weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_EpicFlameblade" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Roaring Flameblade" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A Flameblade's signature weapon." />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_PhoenixWings" />
+        <field name="ItemName" type="TranslatedStringStatObjectFieldDefinition" value="Phoenix Wings" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Wings of the Phoenix." />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,418 @@
+new equipment "OdinPyro_Class_Arsonist_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "SCROLL_Fireball"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinPyro_Class_Scorcher_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "SCROLL_Fireball"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinPyro_Class_Phoenix_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_CraftedStaff_Fire"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "SCROLL_Fireball"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinPyro_Class_Flameblade_Start"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "WPN_OdinPyro_Flameblade"
+add equipmentgroup
+add equipment entry "POTION_Minor_Healing_Potion"
+add equipmentgroup
+add equipment entry "GRN_Grenade_Molotov_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+add equipmentgroup
+add equipment entry "SCROLL_Fireball"
+add equipmentgroup
+add equipment entry "WPN_OdinPyro_Flameblade"
+
+new equipment "OdinPyro_Class_Arsonist_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "SCROLL_Fireball"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinPyro_Class_Scorcher_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "SCROLL_Fireball"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinPyro_Class_Phoenix_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "SCROLL_Fireball"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+
+new equipment "OdinPyro_Class_Flameblade_Start_Undead"
+add equipmentgroup
+add equipment entry "ARM_Purge_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_Purge_Helmet"
+add equipmentgroup
+add equipment entry "ARM_Purge_Boots"
+add equipmentgroup
+add equipment entry "ARM_Purge_Gloves"
+add equipmentgroup
+add equipment entry "WPN_CraftedSword_2H"
+add equipmentgroup
+add equipment entry "CON_Potion_Poison_A"
+add equipmentgroup
+add equipment entry "GRN_Grenade_Molotov_A"
+add equipmentgroup
+add equipment entry "SCROLL_Resurrect"
+add equipmentgroup
+add equipment entry "CONT_Backpack_A_SourceHunter"
+add equipmentgroup
+add equipment entry "SCROLL_Fireball"
+add equipmentgroup
+add equipment entry "WPN_OdinPyro_Flameblade"
+
+new equipment "OdinPyro_Class_Flameblade_Lizards"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Boots"
+add equipmentgroup
+add equipment entry "WPN_Fighter_Sword_1H_Lizards"
+add equipmentgroup
+add equipment entry "WPN_Fighter_Sword_1H_Lizards"
+
+new equipment "OdinPyro_Class_Flameblade_Elves"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Boots"
+add equipmentgroup
+add equipment entry "WPN_Fighter_Sword_1H_Elves"
+add equipmentgroup
+add equipment entry "WPN_Fighter_Sword_1H_Elves"
+
+new equipment "OdinPyro_Class_Flameblade_Dwarves"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Boots"
+add equipmentgroup
+add equipment entry "WPN_Fighter_Sword_1H_Dwarves"
+add equipmentgroup
+add equipment entry "WPN_Fighter_Sword_1H_Dwarves"
+
+new equipment "OdinPyro_Class_Flameblade_Humans"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroKnight_Boots"
+add equipmentgroup
+add equipment entry "WPN_Fighter_Sword_1H_Humans"
+add equipmentgroup
+add equipment entry "WPN_Fighter_Sword_1H_Humans"
+
+new equipment "OdinPyro_Class_Arsonist_Lizards"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+
+new equipment "OdinPyro_Class_Arsonist_Elves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+
+new equipment "OdinPyro_Class_Arsonist_Dwarves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+
+new equipment "OdinPyro_Class_Arsonist_Humans"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+
+new equipment "OdinPyro_Class_Scorcher_Lizards"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+
+new equipment "OdinPyro_Class_Scorcher_Elves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+
+new equipment "OdinPyro_Class_Scorcher_Dwarves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+
+new equipment "OdinPyro_Class_Scorcher_Humans"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+add equipmentgroup
+add equipment entry "WPN_CraftedWand_Fire"
+
+new equipment "OdinPyro_Class_Phoenix_Lizards"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedStaff_Fire"
+
+new equipment "OdinPyro_Class_Phoenix_Elves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedStaff_Fire"
+
+new equipment "OdinPyro_Class_Phoenix_Dwarves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedStaff_Fire"
+
+new equipment "OdinPyro_Class_Phoenix_Humans"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Helmet"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_UpperBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_LowerBody"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Gloves"
+add equipmentgroup
+add equipment entry "ARM_PyroWizard_Boots"
+add equipmentgroup
+add equipment entry "WPN_CraftedStaff_Fire"
+

@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Erupt" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="86" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="SLOWED,100,1;Ignite;CreateSurface,1,,FireCloud,100;BURNING,100,1;SLOWED,100,1;IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 1; EarthSpecialist 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;NonSelf;!Ally" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_MagmaGeyser" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Magma Geyser" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Burst a vent in the ground, causing flames to &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; and deal [1] to &lt;font color=&quot;#aa3938&quot;&gt;enemies&lt;/font&gt; caught in the area. &lt;br&gt;&lt;br&gt;The geyser &lt;font color=&quot;#c9aa58&quot;&gt;Slows&lt;/font&gt; enemies and leaves behind &lt;font color=&quot;#c92d01&quot;&gt;fire clouds&lt;/font&gt;." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_fire_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_fire_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Fire_Root_01,KeepRot" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_fire_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_ground_fire_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Self_Touch_Root_01;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_L_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_01:Dummy_R_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_MagmaGeyser_Cast_01" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_MagmaGeyser_Cast_01" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_PhoenixFire" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 3" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;!Dead;" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_WillOfThePhoenix" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Will of the Phoenix" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Command enchanted flames towards the target.&lt;br&gt;&lt;br&gt;If the target is an &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt;, the flames deal [1], and apply a stack of &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt;. If the target has no &lt;font color=&quot;#97fbff&quot;&gt;Magic Armour&lt;/font&gt;, they are also &lt;font color=&quot;#fe6e27&quot;&gt;Smoldered&lt;/font&gt;, reducing &lt;font color=&quot;#c9aa58&quot;&gt;Damage output&lt;/font&gt; and &lt;font color=&quot;#fe6e27&quot;&gt;Fire Resistances&lt;/font&gt; for 2 turns. &lt;br&gt;&lt;br&gt;If the target is an &lt;font color=&quot;#88a25b&quot;&gt;ally&lt;/font&gt;, the flames will instead grant &lt;font color=&quot;#97fbff &quot;&gt;Cauterize&lt;/font&gt; for 2 turns, healing for &lt;font color=&quot;#97fbff &quot;&gt;20% of the target's maximum vitality&lt;/font&gt; on apply and each turn. The &lt;font color=&quot;#88a25b&quot;&gt;ally&lt;/font&gt; will also be granted &lt;font color=&quot;#fe6e27&quot;&gt;Fire Immunity&lt;/font&gt; for 1 turn." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Skill:Projectile_OdinPyro_PhoenixFire_Damage:Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="TARGET:IF(Ally):FIRE_IMMUNITY,100,1;TARGET:IF(Enemy):OdinPyro_SMOLDER,100,2;TARGET:IF(Enemy):EXPLODE,100,0,Projectile_OdinPyro_PhoenixFire_Damage;TARGET:IF(Ally):OdinPyro_PHOENIXFIRE_HEALING,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;TARGET:IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_water_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_water_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Prepare_Phoenix_01,KeepRot;OdinPyro_Prepare_Phoenix_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Prepare_Phoenix__Cast_01;OdinPyro_Prepare_Phoenix_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Phoenix_Target_Impact_01" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_PhoenixFire_Damage" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;!Dead;Ally|Enemy" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_WillOfThePhoenix" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Will of the Phoenix" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Command enchanted flames towards the target.&lt;br&gt;&lt;br&gt;If the target is an &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt;, the flames deal [1], and apply a stack of &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt;. If the target has no &lt;font color=&quot;#97fbff&quot;&gt;Magic Armour&lt;/font&gt;, they are also &lt;font color=&quot;#fe6e27&quot;&gt;Smoldered&lt;/font&gt;, reducing &lt;font color=&quot;#c9aa58&quot;&gt;Damage output&lt;/font&gt; and &lt;font color=&quot;#fe6e27&quot;&gt;Fire Resistances&lt;/font&gt; for 2 turns. &lt;br&gt;&lt;br&gt;If the target is an &lt;font color=&quot;#88a25b&quot;&gt;ally&lt;/font&gt;, the flames will instead grant &lt;font color=&quot;#97fbff &quot;&gt;Cauterize&lt;/font&gt; for 2 turns, healing for &lt;font color=&quot;#97fbff &quot;&gt;20% of the target's maximum vitality&lt;/font&gt; on apply and each turn. The &lt;font color=&quot;#88a25b&quot;&gt;ally&lt;/font&gt; will also be granted &lt;font color=&quot;#fe6e27&quot;&gt;Fire Immunity&lt;/font&gt; for 1 turn." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Weapon:Damage_OdinPyroPhoenixFire:Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="92" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="noprepare" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="noprepare" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="noprepare" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="Portret_Still_01" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="Portret_Still_01" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FireWhip" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="106" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="BURNING,100,1;BLIND,100,1;Ignite;Melt;TARGET:IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;TARGET:IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 2" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf;" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_FlireWhip" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Fire Whip" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Whip the target, dealing [1] damage and leaving the target &lt;font color='#639594'&gt;Blinded&lt;/font&gt;, &lt;font color=&quot;#fe6e27&quot;&gt;Scorched&lt;/font&gt;, and &lt;font color=&quot;#fe6e27&quot;&gt;Burned&lt;/font&gt;." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_lash_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_lash_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Fire_Root_01,KeepRot" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_lash_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_lash_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="hit" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_FireWhip_Root_01" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_02:root:hit" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_02:root:hit" />
+        <field name="SkillEffect" type="StringStatObjectFieldDefinition" value="b40cb293-c547-4f8a-91c3-36d5c422c8fd:Dummy_R_TentacleFX" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_FlamingTongues" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="FLAMING_TONGUES,100,2;FIRE_IMMUNITY,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 4" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;!Dead;Ally" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_FlamingTongues" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Exquisite Firecraft" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="A fiery aura protects target ally for 2 turns, causing approaching enemies to take fire damage. &lt;br&gt;&lt;br&gt;Also grants the target &lt;font color=&quot;#fe6e27&quot;&gt;Fire Immunity&lt;/font&gt; for 2 turns." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Skill:Target_OdinPyro_PhoenixFire_Damage:Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Fireblood" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="FIREBLOOD,100,2;TargetCreateSurface,1,,Fire;IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 1; Polymorph 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;NonSelf;!Ally" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_FireBlood" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Bleed Fire" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="&lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; the target and nearby &lt;font color=&quot;#aa3938&quot;&gt;enemies&lt;/font&gt;. &lt;br&gt;&lt;br&gt;The target gains &lt;font color=&quot;#fe6e27&quot;&gt;Fireblood&lt;/font&gt;, reducing &lt;font color=&quot;#fe6e27&quot;&gt;Fire Resistance&lt;/font&gt; by &lt;font color=&quot;#c80030&quot;&gt;20%&lt;/font&gt; and causes them to bleed &lt;font color=&quot;#fe6e27&quot;&gt;fire surfaces&lt;/font&gt; when hit." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Potion:Stats_Fireblood:FireResistance" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Voodoo_Root_02,KeepRot;RS3_FX_Skills_Fire_Prepare_Voodoo_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Target_Voodoo_Root_01,KeepRot;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_R_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_L_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_01:Dummy_L_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_Target_Voodoo_Root_01,detach:root;RS3_FX_Skills_Fire_Impact_Target_Voodoo_Root_01_Texkey,detach:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_Target_Voodoo_Root_01,detach:root;RS3_FX_Skills_Fire_Impact_Target_Voodoo_Root_01_Texkey,detach:root:cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="CorpseExplosion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="TARGET:IF(Dead):EXPLODE,100,1,Projectile_CorpseExplosion_Explosion;TARGET:IF(!Dead):EXPLODE,100,0,Projectile_OdinPyro_CorpseExplosion;TARGET:IF(!Dead):NECROFIRE,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 1; Necromancy 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="((Dead)&amp;(CanExplode))|Enemy&amp;((HasStatus:OdinPyro_BURNING5)|(HasStatus:OdinPyro_BURNING4)|(HasStatus:OdinPyro_BURNING3));" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Fire_CorpseExplosion" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Condemning Explosion" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target either a &lt;font color='#797980'&gt;corpse&lt;/font&gt; or an &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt; with &lt;font color=&quot;#fe6e27&quot;&gt;3 or more&lt;/font&gt; stacks of &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt;. &lt;br&gt;&lt;br&gt;If the target is a &lt;font color='#797980'&gt;corpse&lt;/font&gt;, this skill deals [2] to nearby enemies and explodes the body. &lt;br&gt;&lt;br&gt;If the target is an &lt;font color=&quot;#aa3938&quot;&gt;alive enemy&lt;/font&gt;, this skill deals [1]. &lt;br&gt;&lt;br&gt;This skill applies &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; and &lt;font color=&quot;#c92d01&quot;&gt;Necrofire&lt;/font&gt; for 2 turns in both instances." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Voodoo_Root_02,KeepRot;RS3_FX_Skills_Voodoo_Prepare_Voodoo_Blood_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Target_Voodoo_Root_01,KeepRot;RS3_FX_Skills_Voodoo_Cast_Target_Voodoo_Blood_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Skills_Voodoo_Cast_Target_Voodoo_Blood_Hand_01_Texkey:Dummy_L_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_CorpseExplosion_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_CorpseExplosion_01:root:cast" />
+        <field name="PositionEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_CorpseExplosion_01:root:cast" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Skill:Projectile_OdinPyro_CorpseExplosion:Damage;Skill:Projectile_CorpseExplosion_Explosion:Damage;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Sabotage" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="BLIND,100,1;TARGET:IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;TARGET:IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;IF(CanBeSabotaged):Sabotage,1;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 1; RogueLore 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;NonSelf;" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Fire_Sabotage" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Sabotage" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Flicker an ember at target &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt;, dealing [1], &lt;font color=&quot;#fe6e27&quot;&gt;Scorching&lt;/font&gt;, and &lt;font color='#639594'&gt;Blinding&lt;/font&gt; them. &lt;br&gt;&lt;br&gt;If the &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt; is carrying &lt;font color='#81ab00'&gt;grenades&lt;/font&gt; or &lt;font color='#81ab00'&gt;arrows&lt;/font&gt;, one &lt;font color='#c80030'&gt;explodes&lt;/font&gt; at random in their inventory." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Voodoo_Hand_Sabotage_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_Sabotage_01:Dummy_L_HandFX:cast;RS3_FX_Skills_Voodoo_Cast_Sabotage_SFX_01:Dummy_Root" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Sabotage_Impact_Root_01,FaceSource:Dummy_BodyFX:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Sabotage_Impact_Root_01,FaceSource:Dummy_BodyFX:cast" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="75" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="MassSabotage" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="BLIND,100,1;IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;Sabotage,2" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 2; RogueLore 2" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;Enemy;" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Fire_MassSabotage" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Mass Sabotage" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Flicker an ember at all &lt;font color=&quot;#aa3938&quot;&gt;enemies&lt;/font&gt; in target area, dealing [1], &lt;font color=&quot;#fe6e27&quot;&gt;Scorching&lt;/font&gt;, and &lt;font color='#639594'&gt;Blinding&lt;/font&gt; them. &lt;br&gt;&lt;br&gt;If an &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt; is carrying &lt;font color='#81ab00'&gt;grenades&lt;/font&gt; or &lt;font color='#81ab00'&gt;arrows&lt;/font&gt;, two &lt;font color='#c80030'&gt;explodes&lt;/font&gt; at random in their inventories." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Voodoo_Root_MassSabotage_01,KeepRot:Dummy_Root;RS3_FX_Skills_Fire_Prepare_Voodoo_Hand_Sabotage_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Aoe_Voodoo_Hand_MassSabotage_01:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Skills_Fire_Cast_Aoe_Voodoo_Hand_MassSabotage_02:Dummy_R_HandFX,Dummy_L_HandFX:cast;RS3_FX_Skills_Voodoo_Cast_MassSabotage_SFX_01:Dummy_Root" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_MassSabotage_Impact_Root_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_MassSabotage_Impact_Root_01:root:cast" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="76" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="MasterOfSparks" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="SPARK_MASTER,100,3" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 2; WarriorLore 2" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;Ally" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Fire_MasterOfSparks" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Master Of Sparks" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target gains &lt;font color=&quot;#fe6e27&quot;&gt;Sparkmaster&lt;/font&gt;, causing melee attacks to bounce flames from the initial target, dealing [1] to the closest &lt;font color='#aa3938'&gt;enemy&lt;/font&gt;. &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#fe6e27&quot;&gt;Sparkmaster&lt;/font&gt; is also applied to &lt;font color='#88a25b'&gt;allies&lt;/font&gt; near this skills target. &lt;br&gt;&lt;br&gt;&lt;font color=&quot;#fe6e27&quot;&gt;Sparkmaster&lt;/font&gt; flames bounce up to 2 times and may bounce back to the initial target." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Touch_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Skills_Fire_Prepare_Touch_Root_01" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Aoe_Voodoo_Root_01:Dummy_Root;RS3_FX_Skills_Fire_Cast_Aoe_Voodoo_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX;RS3_FX_Skills_Fire_Cast_Aoe_Voodoo_Root_01_Texkey:Dummy_Root:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_Aoe_Voodoo_Root_01:Dummy_Root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_Aoe_Voodoo_Root_01:Dummy_Root:cast" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Skill:Projectile_Status_GreaterSpark:Damage;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SpontaneousCombustion" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="42" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="11" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Ignite;Melt;TARGET:IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;TARGET:IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;TARGET:IF(HasStatus:OdinPyro_BURNING5):OdinPyro_BURNING5_Purge,100,0;TARGET:IF(HasStatus:OdinPyro_BURNING4):OdinPyro_BURNING4_Purge,100,0;TARGET:IF(HasStatus:OdinPyro_BURNING3):OdinPyro_BURNING3_Purge,100,0;TARGET:IF(HasStatus:OdinPyro_BURNING2):OdinPyro_BURNING2_Purge,100,0;TARGET:IF(HasStatus:OdinPyro_BURNING1):OdinPyro_BURNING1_Purge,100,0;COMBUSTION,100,0;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 2" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_SpontaneousCombustion" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Spontaneous Combustion" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Deal [1] and &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; target &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt;. Cleanse all instances of &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt; and &lt;font color=&quot;#fe6e27&quot;&gt;Necrofire&lt;/font&gt;, dealing damage based on the number turns left on each. &lt;br&gt;&lt;br&gt;Then, expunge all stacks of &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt;, dealing damage based on the number of stacks removed this way: &lt;br&gt;&lt;br&gt;1 stack: [2] &lt;br&gt;2 stacks: [3] &lt;br&gt;3 stacks: [4] &lt;br&gt;4 stacks: [5] &lt;br&gt;5 stacks: [6]" />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Weapon:Damage_OdinPyroBurning1_Purge:Damage;Weapon:Damage_OdinPyroBurning2_Purge:Damage;Weapon:Damage_OdinPyroBurning3_Purge:Damage;Weapon:Damage_OdinPyroBurning4_Purge:Damage;Weapon:Damage_OdinPyroBurning5_Purge:Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_fire_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_fire_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Fire_Root_02,KeepRot,Detach;RS3_FX_Skills_Fire_Prepare_Fire_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Target_Voodoo_Root_02,KeepRot;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_R_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_L_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_01:Dummy_L_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_SpontaneousCombustion_Impact_Root_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_SpontaneousCombustion_Impact_Root_01:root:cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_DevourFlames" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="OdinPyro_DEVOURFLAMES,100,0;OdinPyro_FLAMEBELLY,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 2" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;!Dead;Ally" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_DevourFlames" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Devour Flames" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target &lt;font color=&quot;#88a25b&quot;&gt;ally&lt;/font&gt; consumes nearby &lt;font color=&quot;#fe6e27&quot;&gt;fire surfaces&lt;/font&gt;, healing them based on the volume of flames consumed. &lt;br&gt;&lt;br&gt;Removes &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt; and grants &lt;font color=&quot;#fe6e27&quot;&gt;Flamebelly&lt;/font&gt;, providing &lt;font color=&quot;#fe6e27&quot;&gt;15% Fire Resistance&lt;/font&gt;." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Skill:Target_OdinPyro_PhoenixFire_Damage:Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_water_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_water_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Voodoo_Root_02,KeepRot;RS3_FX_Skills_Fire_Prepare_Voodoo_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_touch_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Target_Voodoo_Root_01,KeepRot;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_R_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_L_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_01:Dummy_L_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_Aoe_Voodoo_Root_01:Dummy_Root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_Aoe_Voodoo_Root_01:Dummy_Root:cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_BurningTouch" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="110" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="Ignite;BURNING,100,2;IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_BurningTouch" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Burning Touch" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target and &lt;font color=&quot;#fe6e27&quot;&gt;Burn&lt;/font&gt; a nearby target character, dealing [1]. &lt;br&gt;&lt;br&gt;Applies a stack of &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; (up to 5 max), reducing Fire Resistances and dealing &lt;font color=&quot;#fe6e27&quot;&gt;fire damage&lt;/font&gt; on apply and each turn." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Fire_Root_02,KeepRot,Detach;RS3_FX_Skills_Fire_Prepare_Fire_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_touch_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Target_Voodoo_Root_02,KeepRot;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_R_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_L_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_01:Dummy_L_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Target_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Target_01:root:cast" />
+        <field name="StatsDescription" type="TranslatedStringStatObjectFieldDefinition" value="Range: [1]" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Inflame" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="52" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="TARGET:IF(Enemy):OdinPyro_SMOLDER_AURA,100,2;IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING4,100,2;IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING3,100,2;IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING2,100,2;IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):NECROFIRE,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 4" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;NonSelf;!Ally" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_Inflame" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Inflame" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Deal [1] and apply two stacks of &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; to the target and &lt;font color=&quot;#aa3938&quot;&gt;enemies&lt;/font&gt; within 3m. &lt;br&gt;&lt;br&gt;The target gains &lt;font color=&quot;#fe6e27&quot;&gt;Smolder Aura&lt;/font&gt;, reducing &lt;font color=&quot;#c9aa58&quot;&gt;damage output&lt;/font&gt; and &lt;font color=&quot;#fe6e27&quot;&gt;Fire Resistances&lt;/font&gt; of nearby &lt;font color=&quot;#aa3938&quot;&gt;enemies&lt;/font&gt; for 2 turns. &lt;br&gt;&lt;br&gt;Then, if the target(s) has &lt;font color=&quot;#fe6e27&quot;&gt;five stacks of Scorch&lt;/font&gt; and no &lt;font color=&quot;#97fbff&quot;&gt;Magic Armour&lt;/font&gt;, they become afflicted with &lt;font color=&quot;#c92d01&quot;&gt;Necrofire&lt;/font&gt; for 2 turns." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Fire_Root_04,KeepRot;RS3_FX_Skills_Fire_Prepare_Voodoo_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Aoe_Voodoo_Root_01;RS3_FX_Skills_Fire_Cast_Aoe_Voodoo_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Target_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Target_01:root:cast" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="PositionEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Target_01:root:cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_PhoenixianAshes" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 5" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;!Dead;" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_PhoenixianAshes" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Phoenixian Ashes" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Infuse target &lt;font color='#88a25b'&gt;ally&lt;/font&gt; or &lt;font color='#aa3938'&gt;enemy&lt;/font&gt; with ash. &lt;br&gt;&lt;br&gt;If the target is an &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt;, the ashes deal [1], and apply &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt;. If the &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt; has no &lt;font color=&quot;#97fbff&quot;&gt;Magic Armour&lt;/font&gt;, the ashes apply &lt;font color=&quot;#fe6e27&quot;&gt;Phoenixian Fury&lt;/font&gt; for 2 turns, causing them to explode for [2] upon death. &lt;br&gt;&lt;br&gt;If the target is an &lt;font color=&quot;#88a25b&quot;&gt;ally&lt;/font&gt;, the ashes will grant &lt;font color=&quot;#97fbff &quot;&gt;Phoenixian Revival&lt;/font&gt; for 2 turns, causing them to resurrect at &lt;font color=&quot;#97fbff &quot;&gt;25% Vitality&lt;/font&gt; upon death." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Skill:Projectile_OdinPyro_PhoenixFire_Damage:Damage;Skill:Projectile_OdinPyro_PhoenixianFury:Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="TARGET:IF(Ally):OdinPyro_PHOENIXIANREVIVAL,100,2;TARGET:IF(Enemy):OdinPyro_PHOENIXIANFURY,100,2;TARGET:IF(Enemy):EXPLODE,100,0,Projectile_OdinPyro_PhoenixFire_Damage;TARGET:IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;TARGET:IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;TARGET:IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_water_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_water_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Prepare_Phoenix_01,KeepRot;OdinPyro_Prepare_Phoenix_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Prepare_Phoenix__Cast_01;OdinPyro_Prepare_Phoenix_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Phoenix_Target_Impact_01" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_RoaringStrike" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="116" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsMelee" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="NonSelf;!Ally;Character" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_RoaringStrike" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Roaring Strike" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Slash with your &lt;font color=&quot;#fe6e27&quot;&gt;Flameblade&lt;/font&gt;, dealing [1] and &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt; to the target and nearby enemies. &lt;br&gt;&lt;br&gt;Applies a stack of &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; (up to 5 max), reducing Fire Resistances and dealing &lt;font color=&quot;#fe6e27&quot;&gt;fire damage&lt;/font&gt; on apply and each turn." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_weapon_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_weapon_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Weapon_Root_02,KeepRot;OdinPyro_Weapon_Prepare_01,KeepRot;OdinPyro_Weapon_Prepare_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_attack_power_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_attack_power_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Self_Touch_Root_01:Dummy_BodyFX;OdinPyro_Weapon_Prepare_Hand_01:Dummy_R_HandFX,Dummy_L_HandFXRS3_FX_Skills_Fire_Cast_Self_Touch_Root_01" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Impact_RoaringStrike_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="OdinPyro_Impact_RoaringStrike_01:root:cast" />
+        <field name="OverrideMinAP" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="BURNING,100,1;IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SkillTier" />
+        <field name="Requirement" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillRequirement" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="8" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="PositionEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Target_01:root:cast" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="BurnMyEyes" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="CLEAR_MINDED,100,3" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_BurnMyEyes" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Peace of Mind" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target character gains &lt;font color='#dbdbdb'&gt;Clear-Minded&lt;/font&gt;, granting &lt;font color='#40b606'&gt;[1] Strength&lt;/font&gt;, &lt;font color='#40b606'&gt;Finesse&lt;/font&gt;, and &lt;font color='#40b606'&gt;Intelligence&lt;/font&gt;. Also provides &lt;font color='#40b606'&gt;+[3]% Accuracy&lt;/font&gt; and &lt;font color='#40b606'&gt;[2] Wits&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Also cleanses and prevents &lt;font color='#639594'&gt;Blinded&lt;/font&gt;, &lt;font color='#c9aa58'&gt;Terrified&lt;/font&gt;, &lt;font color='#ffb8b8'&gt;Charmed&lt;/font&gt;, &lt;font color='#c80030'&gt;Taunted&lt;/font&gt;, &lt;font color='#7d71d9'&gt;Sleeping&lt;/font&gt;, &lt;font color='#c80030'&gt;Enraged&lt;/font&gt;, and &lt;font color='#c9aa58'&gt;Madness&lt;/font&gt; effects." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Potion:Stats_ClearMinded:Strength;Potion:Stats_ClearMinded:Wits;Potion:Stats_ClearMinded:AccuracyBoost" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_touch_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Prepare_Touch_Hands_01:Dummy_L_HandFX,Dummy_R_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_touch_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_self_touch_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Cast_Target_Touch_R_Hand_01:Dummy_R_HandFX;RS3_FX_Skills_Divine_Cast_Target_Touch_cast_01:Dummy_CastFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Burnmyeye_Impact_Root_01,KeepRot:Dummy_Root:cast;RS3_FX_Skills_Divine_Burnmyeye_Impact_NeckFX_01:Dummy_NeckFX:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Burnmyeye_Impact_Root_01,KeepRot:Dummy_Root:cast;RS3_FX_Skills_Divine_Burnmyeye_Impact_NeckFX_01:Dummy_NeckFX:cast" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Ally;!Dead" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="!Dead" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Haste" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="HASTED,100,2;" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 1" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_Haste" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Haste" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Clear &lt;font color='#c7a758'&gt;Slowed&lt;/font&gt; and &lt;font color='#c80030'&gt;Crippled&lt;/font&gt; from the target by &lt;font color='#dbdbdb'&gt;Hasting&lt;/font&gt; them, granting an additional &lt;font color=&quot;#40b606&quot;&gt;1AP per turn&lt;/font&gt; and additional &lt;font color=&quot;#40b606&quot;&gt;+2 Movement&lt;/font&gt;." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Potion:Stats_Hasted:MovementBoost;Potion:Stats_Hasted:APStart" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_divine_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_divine_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Divine_Root_02,KeepRot;RS3_FX_Skills_Fire_Prepare_Divine_Hand_01:Dummy_R_Hand;RS3_FX_Skills_Fire_Prepare_Divine_Hand_02:Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_divine_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_aoe_divine_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Aoe_Divine_Hand_02:Dummy_L_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Haste_Impact_Root_01:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Haste_Impact_Root_01:root:cast" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Ally;!Dead" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FlamingCrescendo" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="FLAMING_CRESCENDO,100,1" />
+        <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 5" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="CanTargetTerrain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_FlamingCrescendo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Flaming Crescendo" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Deal [1] and curse the target.&lt;br&gt;&lt;br&gt;Upon death or after one turn, the character will explode, dealing [2] in a 3m radius, applying &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; to the target and each enemy hit in the area. &lt;br&gt;&lt;br&gt;Upon explosion, if the target has no &lt;font color=&quot;#97fbff&quot;&gt;Magic Armour&lt;/font&gt; they will be &lt;font color=&quot;#c9aa58&quot;&gt;Terrified&lt;/font&gt; for 1 turn.&lt;br&gt;&lt;br&gt;Whenever a fifth stack of &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; is applied to the cursed character they will explode early." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;Skill:Projectile_FlamingCrescendo_Explosion:Damage;Weapon:Skill_FlamingCrescendo:Damage;" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_voodoo_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Voodoo_Root_02,KeepRot,Detach;RS3_FX_Skills_Fire_Prepare_Voodoo_Hand_01:Dummy_R_HandFX,Dummy_L_HandFX" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastSelfAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_target_voodoo_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Cast_Target_Voodoo_Root_01,KeepRot;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_R_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_02:Dummy_L_HandFX;RS3_FX_Skills_Fire_Cast_Target_Voodoo_Hand_01:Dummy_L_HandFX:cast" />
+        <field name="TargetEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Impact_Target_Voodoo_Root_02:root:cast" />
+        <field name="TargetGroundEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_FireBlood_Impact_Root_01:root:cast" />
+        <field name="CycleConditions" type="StringStatObjectFieldDefinition" value="Enemy;!Dead" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="65" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Enemy_Erupt" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="OdinPyro_Erupt" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

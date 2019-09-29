@@ -1,0 +1,136 @@
+INIT
+CHARACTER:%Caster=null
+CHARACTER:%Player=null
+FLOAT3:%OriginPos=null
+FIXEDSTRING:%TimerTrailblazer=null
+//CHARACTER:%Character
+
+EVENTS
+//SKILL -> StoreSkillCasters
+EVENT OdinPyro_StoreSkillCasters
+VARS
+CHARACTER:_Caster
+ON
+	//SHOUT
+	OnSkillCast(_Caster, Shout_Ignition)
+ACTIONS
+	Set(%Caster, _Caster)
+
+//StoreCharPos
+EVENT OdinPyro_StoreCharacterPosition
+VARS
+CHARACTER:_Character
+
+ON
+	OnTurn(_Character, _)
+	OnCharacterCharacterEvent(_Character, _, MOVE)
+ACTIONS
+	GetPosition(_Character, %OriginPos)
+
+//SKILL -> TRAILBLAZER
+EVENT OdinPyro_Trailblazer
+VARS
+CHARACTER:_Character
+FLOAT3:_Pos
+
+ON
+	OnSkillCast(_Character, Rush_OdinPyro_Trailblazer)
+ACTIONS
+	Set(%Player, _Character)
+	GetPosition(_Character, _Pos)
+	CreateSurfaceAt(_Pos, SurfaceFire, 3, 2, _Character)
+
+
+//SKILL -> PURIFYING_FIRE
+EVENT OdinPyro_PurifyingFire
+VARS
+CHARACTER:_Character
+
+ON
+	OnSkillCast(_Character, Cone_OdinPyro_PurifyingFire)
+	OnCharacterStatusApplied(_Character, OdinPyro_PURIFYINGFIRE)
+ACTIONS
+IF "c1"
+	CharacterHasStatus(_Character, BURNING)
+THEN
+	CharacterRemoveStatus(_Character, BURNING)
+ENDIF
+
+IF "c1"
+	CharacterHasStatus(_Character, FROZEN)
+THEN
+	CharacterRemoveStatus(_Character, FROZEN)
+ENDIF
+
+IF "c1"
+	CharacterHasStatus(_Character, STUNNED)
+THEN
+	CharacterRemoveStatus(_Character, STUNNED)
+ENDIF
+
+IF "c1"
+	CharacterHasStatus(_Character, CHARMED)
+THEN
+	CharacterRemoveStatus(_Character, CHARMED)
+ENDIF
+
+IF "c1"
+	CharacterHasStatus(_Character, NECROFIRE)
+THEN
+	CharacterRemoveStatus(_Character, NECROFIRE)
+ENDIF
+
+IF "c1"
+	CharacterHasStatus(_Character, PETRIFIED)
+THEN
+	CharacterRemoveStatus(_Character, PETRIFIED)
+ENDIF
+CharacterApplyStatus(_Character, WARM)
+
+EVENT OdinPyro_PurifyingFire_Enemy
+VARS
+CHARACTER:_Character
+
+ON
+	OnCharacterStatusAttempt(_Character, OdinPyro_PURIFYINGFIRE_ENEMY)
+ACTIONS
+IF "c1"
+	CharacterHasStatus(_Character, CHILLED)
+THEN
+	CharacterRemoveStatus(_Character, CHILLED)
+ENDIF
+IF "c1"
+	CharacterHasStatus(_Character, WET)
+THEN
+	CharacterRemoveStatus(_Character, WET)
+ENDIF
+IF "c1"
+	CharacterHasStatus(_Character, FROZEN)
+THEN
+	CharacterRemoveStatus(_Character, FROZEN)
+ENDIF
+IF "c1"
+	CharacterHasStatus(_Character, INVISIBLE)
+THEN
+	CharacterRemoveStatus(_Character, INVISIBLE)
+ENDIF
+IF "c1"
+	CharacterHasStatus(_Character, FIRE_IMMUNITY)
+THEN
+	CharacterRemoveStatus(_Character, FIRE_IMMUNITY)
+ENDIF
+
+
+//SKILL -> INCINERATE
+EVENT OdinPyro_Incinerate
+VARS
+CHARACTER:_Character
+
+ON
+	OnCharacterStatusAttempt(_Character, OdinPyro_INCINERATEPROC)
+ACTIONS
+IF "c1"
+	CharacterHasStatus(_Character, NECROFIRE)
+THEN
+	CreateSurfaceAt(_Character, SurfaceFireCursed, 1, 2)
+ENDIF

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="f269fb21-9fdb-493e-b644-c277a7ac6363">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Eruption" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="Ability" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="SkillAbility" />
+        <field name="Tier" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="SkillTier" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="90" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="BURNING,100,2;SLOWED,100,2;IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
+        <field name="TotalSurfaceCells" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Enemy|Item;!Dead" />
+        <field name="OverrideSkillLevel" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="SurfaceMinSpawnRadius" type="IntegerStatObjectFieldDefinition" value="4000" />
+        <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="Death Type" />
+        <field name="ShockWaveDuration" type="IntegerStatObjectFieldDefinition" value="1000" />
+        <field name="MinSurfaces" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="MaxSurfaces" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="SurfaceType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Surface Type" />
+        <field name="SurfaceGrowStep" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="SurfaceGrowInterval" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="SurfaceStatusChance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="OBPYRO_Skill_Eruption" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Eruption" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Erupt the ground around you, dealing [1], &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt;, &lt;font color=&quot;#c9aa58&quot;&gt;Slowing&lt;/font&gt;, and &lt;font color=&quot;#fe6e27&quot;&gt;Scorching&lt;/font&gt; all &lt;font color=&quot;#aa3938&quot;&gt;enemies&lt;/font&gt; in the area. &lt;br&gt;&lt;br&gt;Creates &lt;font color=&quot;#fe6e27&quot;&gt;fire surfaces&lt;/font&gt; in the eruption radius." />
+        <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="Damage;MinSurfaces" />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_shout_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_shout_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Fire_Prepare_Earth_Root_01,KeepRot:Dummy_Root" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_shout_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="CastEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Earth_Cast_Shout_Earthquake_Root_01,detach:Dummy_Root:cast;RS3_FX_Skills_Fire_Cast_Shout_Supernova_01,detach:Dummy_Root:cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MemorizationRequirements" type="StringStatObjectFieldDefinition" value="FireSpecialist 3; EarthSpecialist 2" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="cc1701fc-f374-4681-a3ec-29a5ce8d05e8">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Arsonist_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Fireball" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Scorcher_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Fireball" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Phoenix_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedStaff_Fire" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Fireball" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Flameblade_Start" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinPyro_Flameblade" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="POTION_Minor_Healing_Potion" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="GRN_Grenade_Molotov_A" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Fireball" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinPyro_Flameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Arsonist_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Fireball" />
+        <field name="11" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Scorcher_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Fireball" />
+        <field name="11" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Phoenix_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Fireball" />
+        <field name="11" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Flameblade_Start_Undead" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_UpperBody" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_LowerBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Helmet" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Boots" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_Purge_Gloves" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedSword_2H" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="CON_Potion_Poison_A" />
+        <field name="8" type="StatReferenceStatObjectFieldDefinition" stat_name="GRN_Grenade_Molotov_A" />
+        <field name="9" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Resurrect" />
+        <field name="10" type="StatReferenceStatObjectFieldDefinition" stat_name="CONT_Backpack_A_SourceHunter" />
+        <field name="11" type="StatReferenceStatObjectFieldDefinition" stat_name="SCROLL_Fireball" />
+        <field name="12" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_OdinPyro_Flameblade" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Flameblade_Lizards" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Fighter_Sword_1H_Lizards" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Fighter_Sword_1H_Lizards" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Flameblade_Elves" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Fighter_Sword_1H_Elves" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Fighter_Sword_1H_Elves" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Flameblade_Dwarves" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Fighter_Sword_1H_Dwarves" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Fighter_Sword_1H_Dwarves" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Flameblade_Humans" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroKnight_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Fighter_Sword_1H_Humans" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_Fighter_Sword_1H_Humans" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Arsonist_Lizards" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Arsonist_Elves" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Arsonist_Dwarves" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Arsonist_Humans" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Scorcher_Lizards" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Scorcher_Elves" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Scorcher_Dwarves" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Scorcher_Humans" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+        <field name="7" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedWand_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Phoenix_Lizards" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedStaff_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Phoenix_Elves" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedStaff_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Phoenix_Dwarves" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedStaff_Fire" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_Class_Phoenix_Humans" />
+        <field name="1" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Helmet" />
+        <field name="2" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_UpperBody" />
+        <field name="3" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_LowerBody" />
+        <field name="4" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Gloves" />
+        <field name="5" type="StatReferenceStatObjectFieldDefinition" stat_name="ARM_PyroWizard_Boots" />
+        <field name="6" type="StatReferenceStatObjectFieldDefinition" stat_name="WPN_CraftedStaff_Fire" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

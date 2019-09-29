@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FIREBLOOD" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Fireblood" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Character is bleeding fire when hit." />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_FireBlood" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="24" enumeration_type_name="FormatStringColor" />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_Status_Fireblood_01,KeepRot:Dummy_BodyFX" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_Fireblood" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_Fireblood" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FIRE_BRAND" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Firebrand" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_FireBrand" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="24" enumeration_type_name="FormatStringColor" />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_Status_Firebrand_Subject_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX;RS3_FX_GP_Status_Firebrand_Subject_Weapon_01" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_FireBrand" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_OdinBrand" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="OdinPyro_EXQUISITEFIRECRAFT" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Exquisite Firecraft" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_FlamingTongues" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="24" enumeration_type_name="FormatStringColor" />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_Status_FlamingTongues_01;RS3_FX_GP_Status_FlamingTongues_Target_01" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_FlamingTongues" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_FlamingTongues" />
+        <field name="StackPriority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="AuraRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AuraAllies" type="StringStatObjectFieldDefinition" value="OdinPyro_BLAZING" />
+        <field name="AuraSelf" type="StringStatObjectFieldDefinition" value="OdinPyro_BLAZING" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Flames protect you." />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,6 @@
+new entry "OdinPYRO_FIREBRAND_PROC"
+type "StatusData"
+data "StatusType" "EFFECT"
+data "ForGameMaster" "No"
+data "InitiateCombat" "No"
+
