@@ -1,4 +1,44 @@
 treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+new treasuretable "ST_OdinPyro_NewSpells"
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_OdinPyro_EmberShower",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "I_SKILLBOOK_OdinPyro_BurningTouch",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Fire_OdinPyro_DevourFlames",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Fire_OdinPyro_SelfImmolation",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_Fire_OdinPyro_Erupt",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "4"
+object category "I_SKILLBOOK_OdinPyro_ConjureFlameElemental",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Fire_OdinPyro_PhoenixFire",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "9"
+object category "I_SKILLBOOK_Fire_OdinPyro_ObsidianWall",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Fire_OdinPyro_MeteorStrike",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Fire_OdinPyro_Flamethrower",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "13"
+object category "I_SKILLBOOK_Fire_OdinPyro_Trailblazer",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "16"
+object category "I_SKILLBOOK_Fire_OdinPyro_Inferno",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "16"
+object category "I_SKILLBOOK_Fire_OdinPyro_Eruption",1,0,0,0,0,0,0,0
 new treasuretable "SkillVendor_PyroReignited"
 new subtable "1,1"
 StartLevel "1"
@@ -44,6 +84,9 @@ StartLevel "16"
 object category "I_SKILLBOOK_Fire_OdinPyro_PhoenixianAshes",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "1"
+object category "T_ST_OdinPyro_NewSpells",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
 object category "I_SKILLBOOK_Fire_Ignition",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "1"
@@ -84,45 +127,6 @@ object category "I_SKILLBOOK_Fire_FlamingCrescendo",1,0,0,0,0,0,0,0
 new subtable "1,1"
 StartLevel "16"
 object category "I_SKILLBOOK_Fire_MeteorShower",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "1"
-object category "I_SKILLBOOK_OdinPyro_EmberShower",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "1"
-object category "I_SKILLBOOK_OdinPyro_BurningTouch",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_Fire_OdinPyro_DevourFlames",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_Fire_OdinPyro_SelfImmolation",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_Fire_OdinPyro_Erupt",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "4"
-object category "I_SKILLBOOK_OdinPyro_ConjureFlameElemental",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "9"
-object category "I_SKILLBOOK_Fire_OdinPyro_PhoenixFire",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "9"
-object category "I_SKILLBOOK_Fire_OdinPyro_ObsidianWall",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "13"
-object category "I_SKILLBOOK_Fire_OdinPyro_MeteorStrike",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "13"
-object category "I_SKILLBOOK_Fire_OdinPyro_Flamethrower",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "13"
-object category "I_SKILLBOOK_Fire_OdinPyro_Trailblazer",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "16"
-object category "I_SKILLBOOK_Fire_OdinPyro_Inferno",1,0,0,0,0,0,0,0
-new subtable "1,1"
-StartLevel "16"
-object category "I_SKILLBOOK_Fire_OdinPyro_Eruption",1,0,0,0,0,0,0,0
 new treasuretable "ST_OdinPyroWeapon"
 new subtable "1,1"
 object category "OdinPyro_Flameblade",1,1,0,0,0,0,0,0
@@ -142,3 +146,19 @@ new subtable "0,1;1,1;2,1"
 StartLevel "9"
 object category "OdinPyro_Flameblade_2H",1,0,0,1,0,0,0,0
 object category "OdinPyro_Flameblade_2H",1,0,0,0,1,0,0,0
+new treasuretable "ST_Skillbook_FireTrainer"
+CanMerge 1
+new subtable "1,1"
+StartLevel "1"
+object category "T_ST_OdinPyro_NewSpells",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "T_ST_OdinPyroWeapon",1,0,0,0,0,0,0,0
+new treasuretable "FTJ_SkillbookFire"
+CanMerge 1
+new subtable "1,1"
+StartLevel "1"
+object category "T_ST_OdinPyro_NewSpells",1,0,0,0,0,0,0,0
+new subtable "1,1"
+StartLevel "1"
+object category "T_ST_OdinPyroWeapon",1,0,0,0,0,0,0,0

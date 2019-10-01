@@ -1,0 +1,28 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_OBCORE_EnemySkill_Pair("","");
+DB_OBCORE_EnemySkill_Pair("Shout_EnemyIgnition","OdinPyro_Enemy_EmberShower");
+DB_OBCORE_EnemySkill_Pair("Target_EnemyFireWhip","OdinPyro_Enemy_Erupt");
+DB_OBCORE_EnemySkill_Pair("Zone_EnemyLaserRay","OdinPyro_Enemy_MeteorStrike");
+
+// DB_OBCORE_CustomVendor((GUIDSTRING)_Vendor, (STRING)_Dialog);
+//Fort Joy
+DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_000_d540f5ee-a124-461b-83ce-ff77aab1e139, "OdinPYRO_Respec_Vendor"); //Fort Joy - Square
+DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_001_a7cab615-173d-431e-8e92-bb1d46973dc6, "OdinPYRO_Respec_Vendor"); //Fort Joy - Armadia
+
+//Reaper's Coast
+DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_000_9cd70209-fe0a-4400-adec-bbb8d65a55b3, "OdinPYRO_Respec_Vendor"); //Lady Vengeance
+DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_001_d6d260c6-2fde-4b58-a1b9-5ba018bcc705, "OdinPYRO_Respec_Vendor"); //Driftwood Square
+
+//Nameless Isle
+DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_000_9cd70209-fe0a-4400-adec-bbb8d65a55b3, "OdinPYRO_Respec_Vendor"); //Lady Vengeance (carried over)
+DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_000_88e9c852-9e0b-48e9-bd80-4135dbaf33d6, "OdinPYRO_Respec_Vendor"); //Landing beach
+
+//Arx
+DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_000_08ca864f-4e68-41a1-a5ec-4d9e7009006c, "OdinPYRO_Respec_Vendor"); //Arx Square
+KBSECTION
+
+EXITSECTION
+
+ENDEXITSECTION

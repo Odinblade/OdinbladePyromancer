@@ -26,6 +26,7 @@
         <field name="StatusEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_Status_Firebrand_Subject_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX;RS3_FX_GP_Status_Firebrand_Subject_Weapon_01" />
         <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_FireBrand" />
         <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_OdinBrand" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="[1]" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

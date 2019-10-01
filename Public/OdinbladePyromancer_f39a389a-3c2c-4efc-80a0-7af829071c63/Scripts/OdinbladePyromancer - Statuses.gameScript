@@ -48,7 +48,7 @@ CHARACTER:_Character
 
 ON
 	OnSkillCast(_Character, Cone_OdinPyro_PurifyingFire)
-	OnCharacterStatusApplied(_Character, OdinPyro_PURIFYINGFIRE)
+	OnCharacterStatusAttempt(_Character, OdinPyro_PURIFYINGFIRE)
 ACTIONS
 IF "c1"
 	CharacterHasStatus(_Character, BURNING)
