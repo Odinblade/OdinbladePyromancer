@@ -55,7 +55,7 @@
         <field name="Damage Multiplier" type="IntegerStatObjectFieldDefinition" value="170" />
         <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="DamageType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
-        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="OdinPyro_PROC_SNARED,100,0;BURNING,100,1;Ignite;Melt;" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="OdinPyro_SNARED,100,1;BURNING,100,1;Ignite;Melt;" />
         <field name="TargetRadius" type="IntegerStatObjectFieldDefinition" value="13" />
         <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="3" />
         <field name="DeathType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Death Type" />
