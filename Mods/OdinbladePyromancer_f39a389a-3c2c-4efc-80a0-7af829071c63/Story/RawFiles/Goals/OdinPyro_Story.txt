@@ -37,6 +37,29 @@ THEN
     ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinPYRO_Firebrand");
  //END_REGION
 
+// //REGION OBPYRO_PhoenixianAshes
+// IF
+// CharacterStatusApplied(_Character, "OdinPyro_PHOENIXIANREVIVAL", _)
+// THEN
+// DB_OdinPYRO_PhoenixianAshes(_Character);
+
+// IF
+// CharacterStatusRemoved(_Character, "OdinPyro_PHOENIXIANREVIVAL", _)
+// AND
+// DB_OdinPYRO_PhoenixianAshes(_Character)
+// THEN
+// NOT DB_OdinPYRO_PhoenixianAshes(_Character);
+
+// IF
+// CharacterDied(_Character)
+// AND
+// DB_OdinPYRO_PhoenixianAshes(_Character)
+// // HasActiveStatus(_Character, "OdinPyro_PHOENIXIANREVIVAL", 1)
+// THEN
+// CharacterResurrect(_Character);
+// CharacterSetHitpointsPercentage(_Character, 25.0);
+// //END_REGION
+
 EXITSECTION
 
 ENDEXITSECTION

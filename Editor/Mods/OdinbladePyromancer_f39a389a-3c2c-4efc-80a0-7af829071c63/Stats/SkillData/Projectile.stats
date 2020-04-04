@@ -106,7 +106,7 @@
         <field name="IgnoreVisionBlock" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
         <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Fire_ExplosiveTrap" />
         <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Explosive Trap" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Throw an &lt;font color='#81ab00'&gt;explosive traps&lt;/font&gt;, taking a turn to become active. &lt;br&gt;&lt;br&gt;An active &lt;font color='#81ab00'&gt;trap&lt;/font&gt; will explode when a character approaches it, dealing significant &lt;font color=&quot;#fe6e27&quot;&gt;fire damage&lt;/font&gt; and applying &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt;. &lt;br&gt;&lt;br&gt;If the character has no &lt;font color=&quot;#97fbff &quot;&gt;Magic Armour&lt;/font&gt;, they are also &lt;font color=&quot;#fe6e27&quot;&gt;Snared&lt;/font&gt; in place for 1 turn." />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Throw an &lt;font color='#81ab00'&gt;explosive trap&lt;/font&gt;, taking a turn to become active. &lt;br&gt;&lt;br&gt;An active &lt;font color='#81ab00'&gt;trap&lt;/font&gt; will explode when a character approaches it, dealing significant &lt;font color=&quot;#fe6e27&quot;&gt;fire damage&lt;/font&gt; and applying &lt;font color=&quot;#fe6e27&quot;&gt;Burning&lt;/font&gt;. &lt;br&gt;&lt;br&gt;If the character has no &lt;font color=&quot;#97fbff &quot;&gt;Magic Armour&lt;/font&gt;, they are also &lt;font color=&quot;#fe6e27&quot;&gt;Snared&lt;/font&gt; in place for 1 turn." />
         <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_throw_arc_01_start" />
         <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_throw_arc_01_loop" />
         <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Rogue_Prepare_Throw_Arc_Root_01,KeepRot,Detach;RS3_FX_Skills_Rogue_Prepare_Throw_Arc_Hand_Trap_01:Dummy_R_Hand" />
@@ -290,6 +290,7 @@
         <field name="ProjectileTerrainOffset" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
         <field name="OverrideMinAP" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;Enemy" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="NECROFIRE,100,2;IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -323,7 +324,7 @@
         <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="ProjectileTerrainOffset" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
         <field name="OverrideMinAP" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
+        <field name="SkillProperties" type="StringStatObjectFieldDefinition" value="NECROFIRE,100,2;IF((HasStatus:OdinPyro_BURNING5)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING4)&amp;(Enemy)):OdinPyro_BURNING5,100,2;IF((HasStatus:OdinPyro_BURNING3)&amp;(Enemy)):OdinPyro_BURNING4,100,2;IF((HasStatus:OdinPyro_BURNING2)&amp;(Enemy)):OdinPyro_BURNING3,100,2;IF((HasStatus:OdinPyro_BURNING1)&amp;(Enemy)):OdinPyro_BURNING2,100,2;IF((Enemy)&amp;((!HasStatus:OdinPyro_BURNING2)&amp;(!HasStatus:OdinPyro_BURNING3)&amp;(!HasStatus:OdinPyro_BURNING4)&amp;(!HasStatus:OdinPyro_BURNING5))):OdinPyro_BURNING1,100,2;" />
         <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Character;Enemy" />
       </fields>
     </stat_object>

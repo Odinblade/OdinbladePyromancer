@@ -47,3 +47,12 @@ data "AuraRadius" "4"
 data "AuraSelf" "OdinPyro_BLAZING"
 data "AuraAllies" "OdinPyro_BLAZING"
 
+new entry "OdinPyro_PROC_SCORCH"
+type "StatusData"
+data "StatusType" "CONSUME"
+data "ForGameMaster" "No"
+data "InitiateCombat" "No"
+data "DisplayName" "OdinPyro_PROC_SCORCH_DisplayName"
+data "DisplayNameRef" "Scorch"
+data "StatsId" "Stats_OdinPyro_PROC_SCORCH"
+
