@@ -18,6 +18,19 @@ THEN
     ApplyStatus(_Defender, "WARM", 6.0, 0, _Attacker);
     ProcObjectTimer(_Defender, "Clear_DB_OdinPYRO_Firebrand", 100);
 
+IF
+    CharacterStatusAttempt(_Defender, "OdinPYRO_FIREBRAND_PROC", (CHARACTERGUID)_Attacker)
+AND
+    HasActiveStatus(_Attacker, "FIRE_BRAND_AURA", 1)
+AND
+    HasActiveStatus(_Defender, "WARM", 0)
+AND
+    NOT DB_OdinPYRO_Firebrand(_Attacker, _Defender)
+THEN
+    DB_OdinPYRO_Firebrand(_Attacker, _Defender);
+    ApplyStatus(_Defender, "WARM", 6.0, 0, _Attacker);
+    ProcObjectTimer(_Defender, "Clear_DB_OdinPYRO_Firebrand", 100);
+
 PROC
     ProcObjectTimerFinished((CHARACTERGUID)_Defender, "Clear_DB_OdinPYRO_Firebrand")
 AND
@@ -29,6 +42,15 @@ THEN
 //REGION OBPYRO_Firebrand_DeltaModifier
 IF
     CharacterStatusApplied(_Char, "FIRE_BRAND", _)
+AND
+    CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
+AND
+    NOT QRY_OdinCORE_ItemHasDeltaModifier(_Weapon, "Boost_Weapon_OdinPYRO_Firebrand")
+THEN
+    ItemAddDeltaModifier(_Weapon, "Boost_Weapon_OdinPYRO_Firebrand");
+
+IF
+    CharacterStatusApplied(_Char, "FIRE_BRAND_AURA", _)
 AND
     CharacterGetEquippedWeapon(_Char, (ITEMGUID)_Weapon)
 AND
