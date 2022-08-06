@@ -1,49 +1,23 @@
 <contentList>
-	<content contentuid="h9d661013gf6a0g4e5bga939g6da54a212063" Source="SolLitheGreeting.lsj">Though these skills may help you in your quest, it&apos;s your initiative that will save Rivellon.</content>
-	<content contentuid="h8f3c7861g6417g4de6ga26age4db9a00f9de" Source="SolLitheGreeting.lsj">Devastation and revolution can start with just a flicker of ember; could it be you?</content>
-	<content contentuid="heb12ca65ga311g49eegb081gf2b29cd50e29" Source="SolLitheGreeting.lsj">I would like to trade.</content>
-	<content contentuid="h6b0a0eb7gc88dg40a3g9721gec7a3b2292bd" Source="SolLitheGreeting.lsj">*Take my leave*</content>
-	<content contentuid="h7adfc6e1ga169g4955g8b08g69d6655b8d9f" Source="_merged.lsf">Blocks vision.</content>
-	<content contentuid="hfdce109cg5f54g427fg902fg2866d2bdf7e8" Source="_merged.lsf">A scroll is a one time use spell. Use to start casting!</content>
-	<content contentuid="hb57b3935gfde9g4a05g82d2gfc8c3aa029cf" Source="_merged.lsf">Smoke Cloud</content>
-	<content contentuid="h403a5584gbd26g4c8cgb021g1c67f8427f2a" Source="_merged.lsf">Condemning Explosion Skillbook</content>
-	<content contentuid="h0862cda2g24dcg4ee8g8773ge008083dc497" Source="_merged.lsf">Exquisite Firecraft Skillbook</content>
-	<content contentuid="h401bbd1eg33d9g4d2egb6ebg0f5b5927039b" Source="_merged.lsf">Searing Volley Skillbook</content>
-	<content contentuid="hf229eab0g6a82g45a5g9ec1gde93c028fa50" Source="_merged.lsf">Scorching Ignition Skillbook</content>
-	<content contentuid="h1a6359efgb315g4253g851dg632bc2162f09" Source="_merged.lsf">Conjure Fire Slug Skillbook</content>
-	<content contentuid="h54a63137g6745g4fc5gba73g9195f55434e4" Source="_merged.lsf">Mass Condemning Explosion Skillbook</content>
-	<content contentuid="h5be8fcf2g9940g404bgafa0g306977daa992" Source="_merged.lsf">Mass Explosive Traps Skillbook</content>
-	<content contentuid="h93628d64g5724g41efg976fg1680ff75932e" Source="_merged.lsf">Explosive Trap Skillbook</content>
-	<content contentuid="h07551d25g89c7g4a46g9796g700d961bc29b" Source="_merged.lsf">Firebrand Skillbook</content>
-	<content contentuid="h5b58a9a9g7632g4958g88fagd579fcea5423" Source="_merged.lsf"></content>
-	<content contentuid="h4165329fg6111g4e1ag9335g818e7bd59bd5" Source="_merged.lsf">Scrolls</content>
-	<content contentuid="hade52232gc902g4723ga9e4g60cc1ec6a12f" Source="003e0e39-ce91-4cf5-8304-e3590e799dc2.lsf">Incineration Skillbook</content>
-	<content contentuid="he25197c5g3012g4f91g886cgb3e2392a830b" Source="00f493f1-392c-4b1b-9041-7f58becdb610.lsf">Magma Wall</content>
-	<content contentuid="heebeb5aagd132g40afga43fgba88eefd71e2" Source="03953936-9293-4db7-ae8c-bd13444db863.lsf">Conjure Flame Elemental Skillbook</content>
-	<content contentuid="h29d6df7fga9f4g4b61ga448g65694597272b" Source="1695076f-f5bf-4f3b-ae58-2702533f2a6a.lsf">Magma Wall</content>
-	<content contentuid="he5fd17f0gc2beg4f70g965bg8e55116431bf" Source="1695076f-f5bf-4f3b-ae58-2702533f2a6a.lsf"></content>
-	<content contentuid="h9d48d26dga885g4819gb835geff78dfedf0d" Source="182ff601-8c47-4e07-84a3-6e6103db26b8.lsf">Purifying Fire Skillbook</content>
-	<content contentuid="ha2edf2dfg67ccg4828ga5bfg66babc294e07" Source="18f52cab-59cf-459f-bc44-c4afbc6146c2.lsf">Self-Immolation Skillbook</content>
-	<content contentuid="h8f12f365ga690g4cc0gaa41g6cd5bd0a9374" Source="206d6d47-2124-408a-adb7-194fbf8ae689.lsf">A sword of wit can dispel all doubts, a sword of metal can dispatch all enemies.</content>
-	<content contentuid="h55c145ccgea79g4ccegada6gfd323d35df02" Source="25d080f6-c7c2-4920-b51d-e1c1f1b833e4.lsf">A long sword that exudes death from hilt to tapered tip.</content>
-	<content contentuid="hc32234efg6d48g461egb2b3g9a0b823b170c" Source="291bad17-fad9-4eb9-aea5-63782f9dce59.lsf">Undeployed Explosive Mine</content>
-	<content contentuid="hfeccb8bbgf99fg4028gb187g607c18c2cbaa" Source="291bad17-fad9-4eb9-aea5-63782f9dce59.lsf"></content>
-	<content contentuid="hdb61ce8eg43b3g4fb8g8c25g0b41c8614480" Source="2bc33737-5ed9-4074-b674-8191fe284b4e.lsf">Will of the Phoenix Skillbook</content>
-	<content contentuid="h2ffa1090g22d9g42afga6b3gbfb3d1037c18" Source="33164b05-bb06-43b9-b627-7bca7f8a8c20.lsf">Magma Geyser Skillbook</content>
-	<content contentuid="h301f8700gb27fg43e2gb5b1g830dede1df34" Source="3e5342db-7854-402b-93e5-70a9d81b92cf.lsf">This hefty blade is an excellent sidekick for bartering, threatening or general intimidation.</content>
-	<content contentuid="h6fa585beg4d83g42ccgb022g094114a82591" Source="4450ed31-0ad9-4a2c-b37a-73fc77d16670.lsf">Ember Shower Skillbook</content>
-	<content contentuid="ha959eedfg45aeg40fagab3cgebd12f3cdceb" Source="47ee4fa8-ea38-4931-8586-047de721cae2.lsf"></content>
-	<content contentuid="he06e6757g905ag4b1bgbe43g368fc9052880" Source="59f27db9-1706-4866-938a-6169a36b9523.lsf">Ragnarok Skillbook</content>
-	<content contentuid="h1b0212d3g8ecfg4bcagac01g6b8c69043f94" Source="5b8e9d97-0f43-47b3-a6e9-23ac8bdf8796.lsf">Shiny enough to attract a magpie, sharp enough to kill it.</content>
-	<content contentuid="h828ec7b3g0adeg4e8ega516g9bd5649e8eb0" Source="5b8e9d97-0f43-47b3-a6e9-23ac8bdf8796.lsf">Swords</content>
-	<content contentuid="hcf767d2dg1770g4ef9gbe9egb6fa910976f1" Source="806b0d6b-0a32-44d1-90be-776d41b5ccac.lsf">Flame Elemental</content>
-	<content contentuid="h9e8cefe8g6687g4ec1g9380g0102716d6d55" Source="83b505be-2294-4867-a056-c9dfec5e059c.lsf">Burning Touch Skillbook</content>
-	<content contentuid="h31666410g8843g485bg8e5fg155ddef39595" Source="84623925-ed55-4f7b-8d4a-63eba8e04c46.lsf">Inflame Skillbook</content>
-	<content contentuid="hd6bfe79agb1e9g4491g80d7g8dfc833f959b" Source="94b9cfff-1964-4a80-90b3-50de81ae9766.lsf">Magma Wall Skillbook</content>
-	<content contentuid="hb08342d2gf61bg41e5gb2d8gc4ebf8a2ecdf" Source="9d72fac8-e2a3-4bfb-8544-27283b07a457.lsf">Eruption Skillbook</content>
-	<content contentuid="hea325b14g70f1g4643g8d4ag2e5b9338ff95" Source="9dff81ba-c2d2-4d20-8650-6d0aa6162265.lsf"></content>
-	<content contentuid="h08b4a4a6g5428g4534g9db7gdf8935ca752b" Source="c47de939-a773-4f11-941b-adef3eebbbfe.lsf">Magma Wall</content>
-	<content contentuid="h817ce9a9g70dcg4dd4gb467g339cd17569f6" Source="c9dc0c0f-5d21-4561-b295-b8324f4278a7.lsf">Phoenixian Ashes Skillbook</content>
+	<content contentuid="hbd7fbc80g84d8g48c0gbf2cg33f27204e94c" Source="BOOK_Skill_Fire_OdinPyro_BlazeOfGlory">Pyrokinetic skills are Fire-based spells. High intelligence improves these skills. Read this book to learn this skill.</content>
+	<content contentuid="hb8ec6fe1gd778g42fbg96beg993e1f8b76fe" Source="BOOK_Skill_Fire_OdinPyro_BlazeOfGlory">Trailblazer Skillbook</content>
+	<content contentuid="hcf97a6e7ga0ebg4fe3ga4dcg393c9c87423f" Source="BOOK_Skill_Fire_OdinPyro_BlazeOfGlory">Skillbooks</content>
+	<content contentuid="h575b27e1gf151g4bd7g950cg63772195cc36" Source="BOOK_Skill_Fire_OdinPyro_BurningTouch">Burning Touch Skillbook</content>
+	<content contentuid="h3c9bcee0ge1b0g45ddga09bgd08e9022efe8" Source="BOOK_Skill_Fire_OdinPyro_ConjureFlameElemental">Conjure Flame Elemental Skillbook</content>
+	<content contentuid="h57a1253bg546cg40a0gae4bg99b4ecb1db8b" Source="BOOK_Skill_Fire_OdinPyro_DevourFlames">Devour Flames Skillbook</content>
+	<content contentuid="h6f3e4fd1g8fb7g4f54g8a41gd5a19eb29ffb" Source="BOOK_Skill_Fire_OdinPyro_EmberShower">Ember Shower Skillbook</content>
+	<content contentuid="he9f74d0dgcd8bg4be5g81edgf6bc4cf792eb" Source="BOOK_Skill_Fire_OdinPyro_Eruption">Eruption Skillbook</content>
+	<content contentuid="h33f9b34fg2ddag49f9gbcc5g19c566228d0a" Source="BOOK_Skill_Fire_OdinPyro_Flamethrower">Incineration Skillbook</content>
+	<content contentuid="hcd7f030fg5a7eg4a75gb7f6g24362b5a483f" Source="BOOK_Skill_Fire_OdinPyro_Inferno">Inferno Skillbook</content>
+	<content contentuid="hde3a6adeg37e0g4ee4g9b45g58cfeb8ae360" Source="BOOK_Skill_Fire_OdinPyro_Inflame">Inflame Skillbook</content>
+	<content contentuid="h952e823bg577eg4fcegb489gbc142fb632cf" Source="BOOK_Skill_Fire_OdinPyro_MagmaGeyser">Magma Geyser Skillbook</content>
+	<content contentuid="he2c00766gbf67g46e2g8f16gfce1dba7b9af" Source="BOOK_Skill_Fire_OdinPyro_MagmaWall">Magma Wall Skillbook</content>
+	<content contentuid="hda23443ag8cedg499cg9c73g92552d357e7f" Source="BOOK_Skill_Fire_OdinPyro_MeteorCrash">Meteor Strike Skillbook</content>
+	<content contentuid="h0e85e1ebgde2ag4b94g87bdg7414451b2142" Source="BOOK_Skill_Fire_OdinPyro_PhoenixianAshes">Phoenixian Ashes Skillbook</content>
+	<content contentuid="h18c3b62fg80ddg47c0gb519gd46363e0e32c" Source="BOOK_Skill_Fire_OdinPyro_PurifyingFire">Purifying Fire Skillbook</content>
+	<content contentuid="hfa77215cg9491g45c3g9f87g5a35046a67ba" Source="BOOK_Skill_Fire_OdinPyro_Ragnarok">Ragnarok Skillbook</content>
+	<content contentuid="h60668761g1673g4f95g87b4g5dc6743d9248" Source="BOOK_Skill_Fire_OdinPyro_SelfImmolation">Self-Immolation Skillbook</content>
+	<content contentuid="hd9d4ca9fg9ca3g4079g9a87g858c07cfc9f8" Source="BOOK_Skill_Fire_OdinPyro_WillOfThePhoenix">Will of the Phoenix Skillbook</content>
 	<content contentuid="h43f8475dg74a9g45edga822g6098ad911ffd" Source="Cone_Description.lsb" Key="Cone_OdinAERO_Aeroblast_Description">Blast a violent wind, cleansing all &lt;font color=&apos;#dbdbdb&apos;&gt;Surfaces&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Those hit by the blast are dealt [1] and are executed if they are &lt;font color=&quot;#797980&quot;&gt;Suffocating&lt;/font&gt; and have less than &lt;font color=&quot;#97fbff&quot;&gt;15% Vitality&lt;/font&gt;.&lt;br&gt;&lt;br&gt;Survivors of the blast &lt;font color=&apos;#dbdbdb&apos;&gt;lose their footing&lt;/font&gt; and begin &lt;font color=&quot;#797980&quot;&gt;Suffocating&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Setting &lt;font color=&apos;#dbdbdb&apos;&gt;Lost Footing&lt;/font&gt; on an enemy who already has &lt;font color=&apos;#dbdbdb&apos;&gt;Lost Footing&lt;/font&gt; will set &lt;font color=&apos;#dbdbdb&apos;&gt;Knocked Down&lt;/font&gt; if either Armour type is depleted.</content>
 	<content contentuid="hc88f1a67g2705g4745gaa82gf3b1c31911e8" Source="Cone_Description.lsb" Key="Cone_OdinPyro_CHANGEME_Description">|Smash your weapon into the ground, damaging all non-allied characters in a cone in front of you for [1] damage and knocking them down. Clears non-cursed surfaces and clouds.|</content>
 	<content contentuid="he741b6e4g4ab5g4ed6g9c44g3fb482f8194e" Source="Cone_Description.lsb" Key="Cone_OdinPyro_Flamethrower_Description">Roar flames in a cone, creating a &lt;font color=&apos;#fe6e27&apos;&gt;fire surface&lt;/font&gt;. If an enemy hit by this skill is afflicted with &lt;font color=&quot;#c92d01&quot;&gt;Necrofire&lt;/font&gt;, the &lt;font color=&quot;#fe6e27&quot;&gt;fire surface&lt;/font&gt; becomes &lt;font color=&apos;#c92d01&apos;&gt;cursed&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Enemies are dealt [1] and are executed if they are afflicted with either &lt;font color=&quot;#c92d01&quot;&gt;Necrofire&lt;/font&gt; or &lt;font color=&apos;#fe6e27&apos;&gt;five Scorch stacks&lt;/font&gt; and have less than &lt;font color=&quot;#97fbff&quot;&gt;15% Vitality&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Also applies &lt;font color=&apos;#fe6e27&apos;&gt;Burning&lt;/font&gt; and a &lt;font color=&apos;#fe6e27&apos;&gt;Scorch&lt;/font&gt; stack.</content>
@@ -53,18 +27,6 @@
 	<content contentuid="h63439188ge35bg4c70g93bfg5de3eaadef0b" Source="Cone_DisplayName.lsb" Key="Cone_OdinPyro_Flamethrower_DisplayName">Incineration</content>
 	<content contentuid="ha95315dag5334g4dd1g8b08g41b7e4d51226" Source="Cone_DisplayName.lsb" Key="Cone_OdinPyro_PurifyingFire_DisplayName">Purifying Fire</content>
 	<content contentuid="h76608c72g3e6cg486eg990cgdd3094fd6a99" Source="Cone_StatsDescription.lsb" Key="Cone_OdinPyro_CHANGEME_StatsDescription">Cone angle: [2]&lt;br&gt;Length: [3]</content>
-	<content contentuid="hbd7fbc80g84d8g48c0gbf2cg33f27204e94c" Source="d06b52eb-3c93-430b-bd4b-4f999d242ac7.lsf">Pyrokinetic skills are Fire-based spells. High intelligence improves these skills. Read this book to learn this skill.</content>
-	<content contentuid="had91256eg1e45g4541gb9c7gd707268719f2" Source="d06b52eb-3c93-430b-bd4b-4f999d242ac7.lsf">Trailblazer Skillbook</content>
-	<content contentuid="hcf97a6e7ga0ebg4fe3ga4dcg393c9c87423f" Source="d06b52eb-3c93-430b-bd4b-4f999d242ac7.lsf">Skillbooks</content>
-	<content contentuid="h1f0c4f9fg6308g4907ga044g091c1f7bc240" Source="da5438c3-4226-4e9d-b1ac-606444593e26.lsf">Flame Elemental</content>
-	<content contentuid="h2af785bdge34cg4916gbf13g3f5800725f0f" Source="e5431bf0-7d7c-47b0-98cc-8af4556c1f13.lsf">Sol&apos;Lithe</content>
-	<content contentuid="hfbb9e532gb128g4f02g8197g8ff2eb10f7ec" Source="e8a70514-b412-4be5-9f27-48affa33f030.lsf"></content>
-	<content contentuid="hf9b78c1dg3c54g4f7ag8c30g47b550436a5e" Source="e9999bdc-8475-4567-be74-db15b70b9b02.lsf">Devour Flames Skillbook</content>
-	<content contentuid="h9df4108fg63efg4561g8dbcg1387a53050d4" Source="eb771b9b-26ea-4763-bbfa-879f30f5e19a.lsf">Meteor Strike Skillbook</content>
-	<content contentuid="hd32d2bdbg4852g42b6gb80ag3717238774be" Source="f1622210-a888-4b17-9be5-d999f032e521.lsf">Fire Slug</content>
-	<content contentuid="hb537f00bgf455g48bcga814gae00ea67045b" Source="f1d80b37-080e-4c1a-aba8-9b5509fffc5f.lsf">Inferno Skillbook</content>
-	<content contentuid="h4f126494g6e66g468bg8221gb807b6bc1f53" Source="f6a76fe3-4c6b-4f8d-b04d-a6b5ca8efb59.lsf">[STATS]ARM_OdinPyro_PhoenixWings</content>
-	<content contentuid="h032b9a54g57c6g4c32gb773g1e00310bd2ba" Source="fb0cd7f5-43cb-453d-85e6-1ae11455ed8b.lsf"></content>
 	<content contentuid="h0ef71391g96f3g4445g9888g26d8c1962d11" Source="ItemProgression.lsb" Key="A Flameblade's signature weapon.">A Flameblade&apos;s signature weapon.</content>
 	<content contentuid="h9dad43e8g4584g453cgbb15gf9e8aa86e26f" Source="ItemProgression.lsb" Key="Improvised Flameblade">Improvised Flameblade</content>
 	<content contentuid="hc68fe7b2gc5f7g496ag8dc0gf6f7fe8a3fef" Source="ItemProgression.lsb" Key="Knight's Flameblade">Knight&apos;s Flameblade</content>
@@ -78,6 +40,12 @@
 	<content contentuid="h62cccaabg309bg4949gb500gee779f7ab5c9" Source="Jump_StatsDescription.lsb" Key="Jump_OdinPyro_TraverseFlames_StatsDescription">Range: [1]</content>
 	<content contentuid="h3862371dg11b5g4399g8da3ga6a376453dde" Source="MultiStrike_Description.lsb" Key="MultiStrike_OdinPyro_WPN_NAMEME_Description">|Jump over the enemy, landing behind their back and backstabbing them for [1] damage.|</content>
 	<content contentuid="h70cad05bg5a8eg4187g8b25g0bcb9b4dc5e4" Source="MultiStrike_DisplayName.lsb" Key="MultiStrike_OdinPyro_WPN_NAMEME_DisplayName">NAMEME</content>
+	<content contentuid="hc32234efg6d48g461egb2b3g9a0b823b170c" Source="OdinPYRO_ExplosiveTrap_01">Undeployed Explosive Mine</content>
+	<content contentuid="h7f66f444gdb0bg49abg99fbg878a6240c6a0" Source="OdinPyro_MagmaWall_A">Magma Wall</content>
+	<content contentuid="he5fd17f0gc2beg4f70g965bg8e55116431bf" Source="OdinPyro_MagmaWall_A"></content>
+	<content contentuid="h4694ed2agc69bg415egb94bg4bc1c0eb07af" Source="OdinPyro_MagmaWall_B">Magma Wall</content>
+	<content contentuid="h7afbe224g62d2g45b7gb07dg298299be9038" Source="OdinPyro_MagmaWall_C">Magma Wall</content>
+	<content contentuid="h4d0dec3cgd700g4e50gbb3cgf6514831ffdb" Source="OdinPyro_PhoenixWings">[STATS]ARM_OdinPyro_PhoenixWings</content>
 	<content contentuid="h936ce0a7gc609g4b48ga7cdg6cf7e3b84a53" Source="OdinPYRO_Respec_Vendor.lsj">I wish to become a &lt;b&gt;Phoenix&lt;/b&gt;, gifted with the ability to simultaneously hurt and heal.</content>
 	<content contentuid="h173f7da7ga547g4f4bgbb4cg92ea1722a7e1" Source="OdinPYRO_Respec_Vendor.lsj">Hmm... I see... Whilst it is a shame, I am here for you should you change your mind.</content>
 	<content contentuid="hd3e056ffg2341g4b66ga642ge3fe80d3f401" Source="OdinPYRO_Respec_Vendor.lsj">No. I have already decided on my path.</content>
@@ -126,6 +94,15 @@
 	<content contentuid="h5efe8354gf8f2g472bgbb66g3da918474a4c" Source="OdinPYRO_Respec_Vendor-AutoSave-npkklwbz.lsj">I wish to become a &lt;b&gt;Scorcher&lt;/b&gt;, driven by the ability to ignite foes.</content>
 	<content contentuid="h759c8dacgabc3g4b73g86a9gdd830e96c5b8" Source="OdinPYRO_Respec_Vendor-AutoSave-npkklwbz.lsj">No. I have already decided on my path.</content>
 	<content contentuid="hc20feb3fg6177g44b7gb617g9e05bd5437c0" Source="OdinPYRO_Respec_Vendor-AutoSave-npkklwbz.lsj">Ah the path of the &lt;b&gt;Arsonist&lt;/b&gt;. Are you quite sure?&lt;br&gt;&lt;br&gt;&lt;i&gt;WARNING: This process will replace you inventory, be sure to move your items to another character or storing them in a nearby container!&lt;/i&gt;</content>
+	<content contentuid="h6f9e2dbege0b6g433bg8b7fg7f37594e4da0" Source="OdinPyro_SkillVendor">Sol&apos;Lithe</content>
+	<content contentuid="hd32d2bdbg4852g42b6gb80ag3717238774be" Source="OdinPyro_Summons_FireSlug_Evolved">Fire Slug</content>
+	<content contentuid="ha36b994agf860g4a7bga346g5c27c7d289f0" Source="OdinPyro_Summons_FlameElemental">Flame Elemental</content>
+	<content contentuid="h2dfe20aaga880g4317g8bcfg6a45b360a5b1" Source="OdinPyro_Summons_FlameElemental_Evolved">Flame Elemental</content>
+	<content contentuid="h1b0212d3g8ecfg4bcagac01g6b8c69043f94" Source="OdinPyro_WPN_Flameblade_2H_A">Shiny enough to attract a magpie, sharp enough to kill it.</content>
+	<content contentuid="h828ec7b3g0adeg4e8ega516g9bd5649e8eb0" Source="OdinPyro_WPN_Flameblade_2H_A">Swords</content>
+	<content contentuid="h301f8700gb27fg43e2gb5b1g830dede1df34" Source="OdinPyro_WPN_Flameblade_C">This hefty blade is an excellent sidekick for bartering, threatening or general intimidation.</content>
+	<content contentuid="h8f12f365ga690g4cc0gaa41g6cd5bd0a9374" Source="OdinPyro_WPN_Flameblade_D">A sword of wit can dispel all doubts, a sword of metal can dispatch all enemies.</content>
+	<content contentuid="h55c145ccgea79g4ccegada6gfd323d35df02" Source="OdinPyro_WPN_Flameblade_E">A long sword that exudes death from hilt to tapered tip.</content>
 	<content contentuid="h4ccebf12g9228g4d59ga24ag1a17db9ab91f" Source="Path_Description.lsb" Key="Path_OdinPyro_PathOfFlames_Description">Fun stuff</content>
 	<content contentuid="ha77804c6g8266g4bb3gb46ag8ce5bcc53336" Source="Path_DisplayName.lsb" Key="Path_OdinPyro_PathOfFlames_DisplayName">Path of Flames</content>
 	<content contentuid="h116bd15agcfd0g478eg9e55g3c0b8018f6be" Source="Projectile_Description.lsb" Key="Projectile_DeployMassTraps_Description">Throw 4 &lt;font color=&apos;#dbdbdb&apos;&gt;traps&lt;/font&gt;, which arm at the end of the round. When detonated, the &lt;font color=&apos;#dbdbdb&apos;&gt;traps&lt;/font&gt; deal [1], apply &lt;font color=&apos;#fe6e27&apos;&gt;Burning&lt;/font&gt;, and increment &lt;font color=&apos;#fe6e27&apos;&gt;Scorch&lt;/font&gt;. &lt;br&gt;&lt;br&gt;If a hit character has no &lt;font color=&quot;#97fbff &quot;&gt;Magic Armour&lt;/font&gt;, they are also &lt;font color=&quot;#fe6e27&quot;&gt;Snared&lt;/font&gt; in place for 1 turn.</content>
@@ -193,11 +170,21 @@
 	<content contentuid="h6b0a0eb7gc88dg40a3g9721gec7a3b2292bd" Source="SolLitheGreeting.lsj">*Take my leave*</content>
 	<content contentuid="hc0c0485dg28a0g4271gb2d8gb97c07518243" Source="Status_ACTIVE_DEFENSE_Description.lsb" Key="FLAMING_TONGUES_Description">Approaching hostiles will be blased with fire damage.</content>
 	<content contentuid="h11862c75ga40eg4c9cg8403gdc444c64f313" Source="Status_ACTIVE_DEFENSE_DisplayName.lsb" Key="FLAMING_TONGUES_DisplayName">Exquisite Firecraft</content>
+	<content contentuid="h5e132021g7df3g4eafgbc53g6925268cfe7e" Source="Status_CONSUME_Description.lsb" Key="FIRE_BRAND_Description">[1]</content>
 	<content contentuid="h14d5866bg8a85g48d5gb09fg11813a6267a5" Source="Status_CONSUME_Description.lsb" Key="FIREBLOOD_Description">Character is bleeding fire when hit.</content>
 	<content contentuid="h217ecbd3g98f5g477bg896dgeca66e48ba9f" Source="Status_CONSUME_Description.lsb" Key="OdinPyro_EXQUISITEFIRECRAFT_Description">Flames protect you.</content>
 	<content contentuid="ha003629egf09cg43ceg970ag7441d5a44208" Source="Status_CONSUME_DisplayName.lsb" Key="FIRE_BRAND_DisplayName">Firebrand</content>
 	<content contentuid="h2fb1da34geaf9g4478gb8e8gb8ba15ff3d3e" Source="Status_CONSUME_DisplayName.lsb" Key="FIREBLOOD_DisplayName">Fireblood</content>
 	<content contentuid="h3068dad1ga808g4220ga4aega1f448d075d7" Source="Status_CONSUME_DisplayName.lsb" Key="OdinPyro_EXQUISITEFIRECRAFT_DisplayName">Exquisite Firecraft</content>
+	<content contentuid="h6da478degb742g4992gae82ga660dd468d9f" Source="Status_CONSUME_DisplayName.lsb" Key="OdinPyro_PHOENIXIANREVIVAL_DisplayName">Phoenixian Revival</content>
+	<content contentuid="hfd205080gbdbdg4089gadccgddd4465ce2db" Source="Status_CONSUME_DisplayName.lsb" Key="OdinPyro_PROC_SCORCH">Scorch</content>
+	<content contentuid="had6210eeg8a8bg4840g8309g076a3d966062" Source="Status_CONSUME_DisplayName.lsb" Key="OdinPyro_PROC_SCORCH_DisplayName">Scorch</content>
+	<content contentuid="he0d3ab4fgb79cg40acg8e18g439b3fa1ff53" Source="Status_CONSUME_DisplayName.lsb" Key="Stats_OdinPyro_PROC_SCORCH">Scorch</content>
+	<content contentuid="hef5514e6g8470g4862gb83dg283bdeb32a16" Source="Status_CONSUME_DisplayName.lsb" Key="Stats_OdinPyroBurning1">Scorched I</content>
+	<content contentuid="hc0874a8fgce78g46c5gb954g846ff1d63abb" Source="Status_CONSUME_DisplayName.lsb" Key="Stats_OdinPyroBurning2">Scorched II</content>
+	<content contentuid="h3f027f09g0559g4986ga748g55f68b1b996d" Source="Status_CONSUME_DisplayName.lsb" Key="Stats_OdinPyroBurning3">Scorched III</content>
+	<content contentuid="ha3fdfdd8gbd8ag4abcg9b50g9d8b5f0e3380" Source="Status_CONSUME_DisplayName.lsb" Key="Stats_OdinPyroBurning4">Scorched IV</content>
+	<content contentuid="h66dbf732gb25eg42b2g85edgbd783d294dd5" Source="Status_CONSUME_DisplayName.lsb" Key="Stats_OdinPyroBurning5">Scorched V</content>
 	<content contentuid="hae9d94efg6220g49e9gb2efg852ccca86804" Source="Status_DAMAGE_Description.lsb" Key="OdinPyro_BURNING1_Description">Deals [1] damage at the start of each turn. &lt;br&gt;&lt;br&gt;Removed by &lt;font color=&apos;#4197e2&apos;&gt;Wet&lt;/font&gt;, &lt;font color=&apos;#cfecff&apos;&gt;Chilled&lt;/font&gt;, &lt;font color=&apos;#cfecff&apos;&gt;Frozen&lt;/font&gt;, and &lt;font color=&apos;#cfecff&apos;&gt;Hypothermia&lt;/font&gt;.</content>
 	<content contentuid="h9ca59c09g66c4g4cfcgb0b4gc7a903d33927" Source="Status_DAMAGE_Description.lsb" Key="OdinPyro_BURNING2_Description">Deals [1] damage on apply and at the start of each turn. &lt;br&gt;&lt;br&gt;Removed by &lt;font color=&apos;#4197e2&apos;&gt;Wet&lt;/font&gt;, &lt;font color=&apos;#cfecff&apos;&gt;Chilled&lt;/font&gt;, &lt;font color=&apos;#cfecff&apos;&gt;Frozen&lt;/font&gt;, and &lt;font color=&apos;#cfecff&apos;&gt;Hypothermia&lt;/font&gt;.</content>
 	<content contentuid="h726a15dfg4c69g4287g9d95g15d117b29b92" Source="Status_DAMAGE_Description.lsb" Key="OdinPyro_BURNING3_Description">Deals [1] damage on apply and at the start of each turn. &lt;br&gt;&lt;br&gt;Removed by &lt;font color=&apos;#4197e2&apos;&gt;Wet&lt;/font&gt;, &lt;font color=&apos;#cfecff&apos;&gt;Chilled&lt;/font&gt;, &lt;font color=&apos;#cfecff&apos;&gt;Frozen&lt;/font&gt;, and &lt;font color=&apos;#cfecff&apos;&gt;Hypothermia&lt;/font&gt;.</content>
@@ -222,6 +209,18 @@
 	<content contentuid="h58d62a32ga4c1g452agb227gd455ffb6df20" Source="Summon_DisplayName.lsb" Key="Summon_FireSlug_DisplayName">Conjure Fire Slug</content>
 	<content contentuid="hdac16dbcg3a9cg403dg8a4fg6cd2d102c8ee" Source="Summon_DisplayName.lsb" Key="Summon_New_Stat_0TEST_DisplayName">Conjure Flame Elemental</content>
 	<content contentuid="h09f7f0dcg3d95g4e66ga8c1g45816b967740" Source="Summon_DisplayName.lsb" Key="Summon_OdinPyro_ConjureFlameElemental_DisplayName">Conjure Flame Elemental</content>
+	<content contentuid="hfdce109cg5f54g427fg902fg2866d2bdf7e8" Source="Summons_FireSlug">A scroll is a one time use spell. Use to start casting!</content>
+	<content contentuid="h7899ce8eg554bg46b7gade9g81fd9e690948" Source="Summons_FireSlug">Condemning Explosion Skillbook</content>
+	<content contentuid="h1ee96382g9cb1g4acfg90b2gd5de5947df66" Source="Summons_FireSlug">Exquisite Firecraft Skillbook</content>
+	<content contentuid="h07551d25g89c7g4a46g9796g700d961bc29b" Source="Summons_FireSlug">Firebrand Skillbook</content>
+	<content contentuid="hfdbe1648g01ccg4ef3g8378g7cff15b7bb89" Source="Summons_FireSlug">Searing Volley Skillbook</content>
+	<content contentuid="h9ff6e5f1g2286g4b73g9939g329989523fb8" Source="Summons_FireSlug">Scorching Ignition Skillbook</content>
+	<content contentuid="h9ead742fg515bg4b12g8893gfe80d44781d5" Source="Summons_FireSlug">Conjure Fire Slug Skillbook</content>
+	<content contentuid="h0c40b25bg17d7g47d2g82b0g237035f922ff" Source="Summons_FireSlug">Mass Condemning Explosion Skillbook</content>
+	<content contentuid="he9cf235bg7cb1g4d94gad25gcf59c5922228" Source="Summons_FireSlug">Mass Explosive Traps Skillbook</content>
+	<content contentuid="h93628d64g5724g41efg976fg1680ff75932e" Source="Summons_FireSlug">Explosive Trap Skillbook</content>
+	<content contentuid="h5b58a9a9g7632g4958g88fagd579fcea5423" Source="Summons_FireSlug"></content>
+	<content contentuid="h4165329fg6111g4e1ag9335g818e7bd59bd5" Source="Summons_FireSlug">Scrolls</content>
 	<content contentuid="h6a4be3b2g4b5fg4b26ga308g283c86dd8688" Source="Target_Description.lsb" Key="Target_BurnMyEyes_Description">Target character gains &lt;font color=&apos;#dbdbdb&apos;&gt;Clear-Minded&lt;/font&gt;, granting &lt;font color=&apos;#40b606&apos;&gt;[1] Strength&lt;/font&gt;, &lt;font color=&apos;#40b606&apos;&gt;Finesse&lt;/font&gt;, and &lt;font color=&apos;#40b606&apos;&gt;Intelligence&lt;/font&gt;. Also provides &lt;font color=&apos;#40b606&apos;&gt;+[3]% Accuracy&lt;/font&gt; and &lt;font color=&apos;#40b606&apos;&gt;[2] Wits&lt;/font&gt;. &lt;br&gt;&lt;br&gt;Also cleanses and prevents &lt;font color=&apos;#639594&apos;&gt;Blinded&lt;/font&gt;, &lt;font color=&apos;#c9aa58&apos;&gt;Terrified&lt;/font&gt;, &lt;font color=&apos;#ffb8b8&apos;&gt;Charmed&lt;/font&gt;, &lt;font color=&apos;#c80030&apos;&gt;Taunted&lt;/font&gt;, &lt;font color=&apos;#7d71d9&apos;&gt;Sleeping&lt;/font&gt;, &lt;font color=&apos;#c80030&apos;&gt;Enraged&lt;/font&gt;, and &lt;font color=&apos;#c9aa58&apos;&gt;Madness&lt;/font&gt; effects.</content>
 	<content contentuid="h033ea477g7e5eg4939gbf7fgbf9bf4250879" Source="Target_Description.lsb" Key="Target_CorpseExplosion_Description">Target either a &lt;font color=&apos;#797980&apos;&gt;corpse&lt;/font&gt; or an &lt;font color=&quot;#aa3938&quot;&gt;enemy&lt;/font&gt; with &lt;font color=&quot;#fe6e27&quot;&gt;3 or more&lt;/font&gt; stacks of &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt;. &lt;br&gt;&lt;br&gt;If the target is a &lt;font color=&apos;#797980&apos;&gt;corpse&lt;/font&gt;, this skill deals [2] to nearby enemies and explodes the body. &lt;br&gt;&lt;br&gt;If the target is an &lt;font color=&quot;#aa3938&quot;&gt;alive enemy&lt;/font&gt;, this skill deals [1]. &lt;br&gt;&lt;br&gt;This skill applies &lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; and &lt;font color=&quot;#c92d01&quot;&gt;Necrofire&lt;/font&gt; for 2 turns in both instances.</content>
 	<content contentuid="h66e68f4dg0391g449cg9949ga0945c25cae7" Source="Target_Description.lsb" Key="Target_Fireblood_Description">&lt;font color=&quot;#fe6e27&quot;&gt;Scorch&lt;/font&gt; the target and nearby &lt;font color=&quot;#aa3938&quot;&gt;enemies&lt;/font&gt;. &lt;br&gt;&lt;br&gt;The target gains &lt;font color=&quot;#fe6e27&quot;&gt;Fireblood&lt;/font&gt;, reducing &lt;font color=&quot;#fe6e27&quot;&gt;Fire Resistance&lt;/font&gt; by &lt;font color=&quot;#c80030&quot;&gt;20%&lt;/font&gt; and causes them to bleed &lt;font color=&quot;#fe6e27&quot;&gt;fire surfaces&lt;/font&gt; when hit.</content>

@@ -41,6 +41,7 @@ data "BackStart" "8"
 data "FrontOffset" "1"
 data "Range" "20"
 data "Base" "1"
+data "CycleConditions" "Enemy;!Dead"
 
 new entry "Zone_OdinPyro_SummonSkill_LaserRay"
 type "SkillData"
@@ -84,4 +85,5 @@ data "BackStart" "8"
 data "FrontOffset" "1"
 data "Range" "20"
 data "Base" "1"
+data "CycleConditions" "Enemy;!Dead"
 

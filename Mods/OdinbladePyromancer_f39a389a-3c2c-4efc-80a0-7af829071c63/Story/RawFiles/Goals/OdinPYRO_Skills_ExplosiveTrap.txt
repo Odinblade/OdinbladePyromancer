@@ -48,6 +48,8 @@ OdinPYRO_ApplyTrapDamage(_Character, _Owner, _Trap);
 
 PROC
 OdinPYRO_ApplyTrapDamage((CHARACTERGUID)_Character, (CHARACTERGUID)_Owner, (ITEMGUID)_Trap)
+AND
+HasActiveStatus(_Character, "OdinPYRO_TRAPDAMAGE", 0)
 THEN
 ProcObjectTimerCancel(_Trap, "OdinPYRO_TRAP_CLEANUP");
 ProcObjectTimer(_Trap, "OdinPYRO_TRAP_CLEANUP", 125);
