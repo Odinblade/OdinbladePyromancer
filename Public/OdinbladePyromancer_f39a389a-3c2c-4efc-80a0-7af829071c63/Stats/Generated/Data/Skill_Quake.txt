@@ -39,5 +39,4 @@ data "CastEffect" "RS3_FX_Skills_Earth_Cast_Shout_Earthquake_Root_01,detach:Dumm
 data "Memory Cost" "1"
 data "Magic Cost" "0"
 data "MemorizationRequirements" "FireSpecialist 3; EarthSpecialist 2"
-data "CycleConditions" "Enemy;!Dead"
 
