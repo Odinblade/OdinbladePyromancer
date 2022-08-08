@@ -40,6 +40,7 @@ data "Magic Cost" "0"
 data "MemorizationRequirements" "FireSpecialist 4"
 data "BackStart" "8"
 data "FrontOffset" "3"
+data "CycleConditions" "Enemy;!Dead"
 
 new entry "Cone_OdinPyro_PurifyingFire"
 type "SkillData"
@@ -80,4 +81,4 @@ data "Magic Cost" "0"
 data "MemorizationRequirements" "FireSpecialist 5"
 data "BackStart" "8"
 data "FrontOffset" "0"
-
+data "CycleConditions" "Character;!Dead"
