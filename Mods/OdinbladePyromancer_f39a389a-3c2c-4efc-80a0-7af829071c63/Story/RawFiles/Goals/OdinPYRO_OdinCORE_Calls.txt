@@ -3,10 +3,24 @@ SubGoalCombiner SGC_AND
 INITSECTION
 //DB_OBCORE_EnemySkill_Pair("","");
 DB_OBCORE_EnemySkill_Pair("Shout_EnemyIgnition","Rain_OdinPyro_Enemy_EmberShower");
-DB_OBCORE_EnemySkill_Pair("Target_EnemyFireWhip","Target_OdinPyro_Enemy_Erupt");
-DB_OBCORE_EnemySkill_Pair("Zone_EnemyLaserRay","ProjectileStrike_OdinPyro_Enemy_MeteorStrike");
+DB_OBCORE_EnemySkill_Pair("Projectile_EnemyFireball","Rain_OdinPyro_Enemy_EmberShower");
+
+DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyPyroclasticRock","Target_OdinPyro_Enemy_Erupt",4);
+
+DB_OBCORE_EnemySkill_Pair_Level("Zone_EnemyLaserRay","ProjectileStrike_OdinPyro_Enemy_MeteorStrike", 6);
+DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyPyroclasticRock","ProjectileStrike_OdinPyro_Enemy_MeteorStrike", 8);
+
 DB_OBCORE_EnemySkill_Pair("Target_EnemyFireWhip","Target_OdinPyro_Enemy_BurningTouch");
 DB_OBCORE_EnemySkill_Pair("Shout_EnemyFirebrand","Target_OdinPyro_Enemy_BurningTouch");
+
+DB_OBCORE_EnemySkill_Pair_Level("Shout_EnemySupernova","Cone_OdinPyro_Enemy_Flamethrower", 8);
+DB_OBCORE_EnemySkill_Pair_Level("Zone_EnemyLaserRay","Cone_OdinPyro_Enemy_Flamethrower", 8);
+
+DB_OBCORE_EnemySkill_Pair("Target_EnemyFireWhip","Rush_OdinPyro_Enemy_Trailblazer");
+DB_OBCORE_EnemySkill_Pair("Shout_EnemyFireBrand","Rush_OdinPyro_Enemy_Trailblazer");
+
+DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyFlamingDaggers","Projectile_OdinPyro_Enemy_Inferno", 14);
+DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyFlamingDaggers","Projectile_OdinPyro_Enemy_Inferno", 12);
 
 // DB_OBCORE_CustomVendor((GUIDSTRING)_Vendor, (STRING)_Dialog);
 //Fort Joy
