@@ -22,6 +22,12 @@ DB_OBCORE_EnemySkill_Pair("Shout_EnemyFireBrand","Rush_OdinPyro_Enemy_Trailblaze
 DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyFlamingDaggers","Projectile_OdinPyro_Enemy_Inferno", 14);
 DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyFlamingDaggers","Projectile_OdinPyro_Enemy_Inferno", 12);
 
+DB_OBCORE_EnemySkill_Pair_Level("Target_EnemySpontCombustion","Target_OdinPyro_Enemy_Inflame",4);
+DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyInfectiousFlame","Target_OdinPyro_Enemy_Inflame",4);
+DB_OBCORE_EnemySkill_Pair("Projectile_EnemyInfectiousFlame_Adrama","Target_OdinPyro_Enemy_Inflame");
+DB_OBCORE_EnemySkill_Pair("Projectile_EnemyInfectiousFlame_Ooze","Target_OdinPyro_Enemy_Inflame");
+DB_OBCORE_EnemySkill_Pair("Projectile_EnemyInfectiousFlame_Puppet","Target_OdinPyro_Enemy_Inflame");
+
 // DB_OBCORE_CustomVendor((GUIDSTRING)_Vendor, (STRING)_Dialog);
 //Fort Joy
 DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_000_d540f5ee-a124-461b-83ce-ff77aab1e139, "OdinPYRO_Respec_Vendor"); //Fort Joy - Square
