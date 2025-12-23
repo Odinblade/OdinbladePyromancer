@@ -1,33 +1,6 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-//DB_OBCORE_EnemySkill_Pair("","");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyIgnition","Rain_OdinPyro_Enemy_EmberShower");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyFireball","Rain_OdinPyro_Enemy_EmberShower");
-
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyPyroclasticRock","Target_OdinPyro_Enemy_Erupt",4);
-
-DB_OBCORE_EnemySkill_Pair_Level("Zone_EnemyLaserRay","ProjectileStrike_OdinPyro_Enemy_MeteorStrike", 6);
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyPyroclasticRock","ProjectileStrike_OdinPyro_Enemy_MeteorStrike", 8);
-
-DB_OBCORE_EnemySkill_Pair("Target_EnemyFireWhip","Target_OdinPyro_Enemy_BurningTouch");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyFirebrand","Target_OdinPyro_Enemy_BurningTouch");
-
-DB_OBCORE_EnemySkill_Pair_Level("Shout_EnemySupernova","Cone_OdinPyro_Enemy_Flamethrower", 8);
-DB_OBCORE_EnemySkill_Pair_Level("Zone_EnemyLaserRay","Cone_OdinPyro_Enemy_Flamethrower", 8);
-
-DB_OBCORE_EnemySkill_Pair("Target_EnemyFireWhip","Rush_OdinPyro_Enemy_Trailblazer");
-DB_OBCORE_EnemySkill_Pair("Shout_EnemyFireBrand","Rush_OdinPyro_Enemy_Trailblazer");
-
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyFlamingDaggers","Projectile_OdinPyro_Enemy_Inferno", 14);
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyFlamingDaggers","Projectile_OdinPyro_Enemy_Inferno", 12);
-
-DB_OBCORE_EnemySkill_Pair_Level("Target_EnemySpontCombustion","Target_OdinPyro_Enemy_Inflame",4);
-DB_OBCORE_EnemySkill_Pair_Level("Projectile_EnemyInfectiousFlame","Target_OdinPyro_Enemy_Inflame",4);
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyInfectiousFlame_Adrama","Target_OdinPyro_Enemy_Inflame");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyInfectiousFlame_Ooze","Target_OdinPyro_Enemy_Inflame");
-DB_OBCORE_EnemySkill_Pair("Projectile_EnemyInfectiousFlame_Puppet","Target_OdinPyro_Enemy_Inflame");
-
 // DB_OBCORE_CustomVendor((GUIDSTRING)_Vendor, (STRING)_Dialog);
 //Fort Joy
 DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_000_d540f5ee-a124-461b-83ce-ff77aab1e139, "OdinPYRO_Respec_Vendor"); //Fort Joy - Square
@@ -43,8 +16,46 @@ DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_000_88e9c852-9e0b-48e9-bd80-4135dbaf
 
 //Arx
 DB_OBCORE_CustomVendor(OdinPyro_SkillVendor_000_08ca864f-4e68-41a1-a5ec-4d9e7009006c, "OdinPYRO_Respec_Vendor"); //Arx Square
-KBSECTION
 
+KBSECTION
+IF
+GameStarted(_, _)
+THEN
+PROC_OBPYRO_ConfigureEnemySkills();
+
+IF
+SavegameLoaded(_,_,_,_)
+THEN
+PROC_OBPYRO_ConfigureEnemySkills();
+
+PROC
+PROC_OBPYRO_ConfigureEnemySkills()
+THEN
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyIgnition","Rain_OdinPyro_Enemy_EmberShower");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFireball","Rain_OdinPyro_Enemy_EmberShower");
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","Target_OdinPyro_Enemy_Erupt",4);
+
+PROC_OBCORE_AddEnemySkillEntry("Zone_EnemyLaserRay","ProjectileStrike_OdinPyro_Enemy_MeteorStrike", 6);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyPyroclasticRock","ProjectileStrike_OdinPyro_Enemy_MeteorStrike", 8);
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyFireWhip","Target_OdinPyro_Enemy_BurningTouch");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFirebrand","Target_OdinPyro_Enemy_BurningTouch");
+
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemySupernova","Cone_OdinPyro_Enemy_Flamethrower", 8);
+PROC_OBCORE_AddEnemySkillEntry("Zone_EnemyLaserRay","Cone_OdinPyro_Enemy_Flamethrower", 8);
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemyFireWhip","Rush_OdinPyro_Enemy_Trailblazer");
+PROC_OBCORE_AddEnemySkillEntry("Shout_EnemyFireBrand","Rush_OdinPyro_Enemy_Trailblazer");
+
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFlamingDaggers","Projectile_OdinPyro_Enemy_Inferno", 14);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyFlamingDaggers","Projectile_OdinPyro_Enemy_Inferno", 12);
+
+PROC_OBCORE_AddEnemySkillEntry("Target_EnemySpontCombustion","Target_OdinPyro_Enemy_Inflame",4);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyInfectiousFlame","Target_OdinPyro_Enemy_Inflame",4);
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyInfectiousFlame_Adrama","Target_OdinPyro_Enemy_Inflame");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyInfectiousFlame_Ooze","Target_OdinPyro_Enemy_Inflame");
+PROC_OBCORE_AddEnemySkillEntry("Projectile_EnemyInfectiousFlame_Puppet","Target_OdinPyro_Enemy_Inflame");
 EXITSECTION
 
 ENDEXITSECTION
