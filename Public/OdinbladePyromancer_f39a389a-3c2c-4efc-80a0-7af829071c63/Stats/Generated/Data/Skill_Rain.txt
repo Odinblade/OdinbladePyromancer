@@ -37,7 +37,7 @@ data "CastTextEvent" "cast"
 data "CastEffect" "RS3_FX_Skills_Fire_Cast_Aoe_Voodoo_Root_01;RS3_FX_Skills_Fire_Cast_Aoe_Voodoo_Hand_01:Dummy_L_HandFX,Dummy_R_HandFX"
 data "Memory Cost" "1"
 data "Magic Cost" "0"
-data "RainEffect" "RS3_FX_Environment_Rain_Fire_01"
+data "RainEffect" "OdinPyro_Rain_01"
 data "ConsequencesStartTime" "1000"
 data "CycleConditions" "Enemy;!Dead"
 
